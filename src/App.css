@@ -5,7 +5,8 @@
 }
 
 :root {
-    --main-color: #c21a1a;
+    --main-color: #CE2127;
+    --secondary-color: #fdfdfd;
 }
 
 /* For navbar dropdown */

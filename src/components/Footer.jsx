@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer className='mx-auto max-w-[1850px]'>
+    <footer className='px-2 md:px-4 mx-auto max-w-[1850px]'>
       <section style={{ backgroundColor: 'var(--main-color)' }}>
         <div className="row">
           <div className="container">
