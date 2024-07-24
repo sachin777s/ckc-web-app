@@ -9,7 +9,7 @@ export default function Layout() {
   return (
     <>
       <Navbar />
-      <main className='mx-auto max-w-[1850px]'>
+      <main className='px-2 md:px-4 mx-auto max-w-[1850px]'>
         <Outlet />
       </main>
       <Footer />
