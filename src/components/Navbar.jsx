@@ -8,7 +8,7 @@ export default function Navbar() {
 
 
   return (
-    <header className='w-full h-[100px] flex items-center justify-center shadow-[0_0_13px_-3px_var(--main-color)]'>
+    <header className='z-[100] sticky w-full h-[100px] flex items-center justify-center shadow-[0_0_13px_-3px_var(--main-color)]'>
       <nav className='px-2 md:px-4 max-w-[1850px] w-full h-full bg-white flex items-center justify-between'>
         <div>
           <img width={150} src={Logo} alt="..." />
@@ -16,9 +16,9 @@ export default function Navbar() {
         <div className='flex'>
           <div className="">
 
-          <button className="hover:text-[var(--main-color)] text-[20px] font-medium py-2 px-4 rounded inline-flex items-center">
-                <span className="mr-1">Home</span>
-              </button>
+            <button className="hover:text-[var(--main-color)] text-[20px] font-medium py-2 px-4 rounded inline-flex items-center">
+              <span className="mr-1">Home</span>
+            </button>
 
             {/* marketing dropdown menu */}
             <div className="dropdown inline-block relative">
@@ -68,8 +68,8 @@ export default function Navbar() {
               </ul>
             </div>
 
-             {/* design dropdown menu */}
-             <div className="dropdown inline-block relative">
+            {/* design dropdown menu */}
+            <div className="dropdown inline-block relative">
               <button className="hover:text-[var(--main-color)] font-medium py-2 px-4 text-[20px] rounded inline-flex items-center">
                 <span className="mr-1">Design</span>
                 <MdOutlineKeyboardArrowDown />
