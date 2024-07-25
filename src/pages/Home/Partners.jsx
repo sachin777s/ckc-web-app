@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Partners() {
     return (
-        <section className='px-2 md:px-4 py-12 flex items-center justify-between bg-[#E4F4F2]'>
+        <section className='px-2 md:px-4 py-12 flex flex-wrap items-center justify-between gap-8 bg-[#E4F4F2]'>
             <img src="/image/wix_partner_logo.webp"
                 alt=".."
                 className='w-60'
