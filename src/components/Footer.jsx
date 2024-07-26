@@ -126,3 +126,4 @@ export default function Footer() {
     </footer>
   )
 }
+'var(--main-color)' 

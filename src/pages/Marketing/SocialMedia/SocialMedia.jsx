@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function SocialMedia() {
   return (
-    <div>SocialMedia</div>
+    <>
+    <h1>hello socal media</h1>
+    </>
   )
 }
