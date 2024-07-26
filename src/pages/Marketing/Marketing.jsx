@@ -2,11 +2,13 @@ import React from 'react'
 import ColorButton from "../../components/asssets/ColorButton"
 import TransButton from "../../components/asssets/TransButton"
 import { Link } from 'react-router-dom'
+import { IoIosArrowDown } from "react-icons/io"
 
 export default function Marketing() {
+
   return (
     <>
-      <section style={{ backgroundImage: 'url(/image/bulding.jpg)', backgroundSize: 'cover', paddingTop: '100px', paddingBottom: "100px" }}>
+      <section style={{ backgroundImage: 'url(/image/bulding.jpg)', backgroundSize: 'cover', paddingTop: '100px', paddingBottom: "100px", position:"relative"}}>
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
@@ -19,8 +21,14 @@ export default function Marketing() {
             </div>
           </div>
         </div>
-      </section>
 
+        <div onClick={()=>window.scrollBy(0,600)}
+         className='absolute bottom-20 left-1/2 text-center flex flex-col'>
+          <span className='text-danger'>Scroll Down</span>
+          <span className='mt-4 self-center text-danger fs-3'><IoIosArrowDown /></span>
+        </div>
+
+      </section>
 
       <section style={{ backgroundColor: "#f1f1f1" }}>
         <div className="container">
@@ -366,7 +374,7 @@ export default function Marketing() {
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto flex items-center justify-center">
             <div className="lg:w-3/5 md:w-2/5 md:pr-16 lg:pr-0 pr-0">
-              <img style={{height: '400px', margin: '0 auto'}} src="/image/form-man-05.png" alt="form image" />
+              <img style={{ height: '400px', margin: '0 auto' }} src="/image/form-man-05.png" alt="form image" />
               <h1 className="title-font text-6xl font-medium text-gray-900 mx-5">
                 To start growing your business today, contact us
               </h1>
@@ -466,7 +474,6 @@ export default function Marketing() {
                     name="message"
                     id="message"
                     className="w-full bg-white rounded border border-gray-300 focus:ring-2 focus:ring-[var(--main-color)] text-base outline-none text-gray-700 py-[10px] px-3 leading-8 transition-colors duration-200 ease-in-out" />
-
                 </div>
               </form>
             </div>
