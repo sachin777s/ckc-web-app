@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function TransButton({ onClickHander, children,className }) {
+export default function TransButton({ onClickHander, children, className }) {
     return (
         <button
             onClick={onClickHander}
