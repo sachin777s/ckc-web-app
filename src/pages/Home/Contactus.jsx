@@ -5,19 +5,17 @@ export default function Contactus() {
     return (
         <section>
             <section className="text-gray-600 body-font">
+                <div className="md:w-2/5 md:pr-16 lg:pr-0 pr-0 flex flex-col">
+                    <h1 className="title-font font-semibold text-5xl text-gray-900">
+                        To start growing your business today, contact us
+                    </h1>
+                    <p className="leading-relaxed mt-4 text-2xl">
+                        Let's get to know each other and talk about how we can help you.
+                    </p>
+                </div>
                 <div className="container gap-8 md:16 lg:gap-20 px-5 py-24 mx-auto flex flex-col md:flex-row items-center justify-center">
-                    <div className="md:w-2/5 md:pr-16 lg:pr-0 pr-0 flex flex-col">
-                        <h1 className="title-font font-semibold text-5xl text-gray-900">
-                            To start growing your business today, contact us
-                        </h1>
-                        <p className="leading-relaxed mt-4 text-2xl">
-                            Let's get to know each other and talk about how we can help you.
-                        </p>
-                        <img
-                            className='w-[14rem] self-center'
-                            src="/image/CKC Abhinaw-03.png"
-                            alt=""
-                        />
+                    <div>
+
                     </div>
                     <div className="w-full md:w-3/5">
                         <form
