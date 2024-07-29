@@ -5,8 +5,8 @@ import TransButton from '../../../components/asssets/TransButton';
 
 export default function HeroSection() {
     return (
-        <section className='relative h-[100vh] overflow-hidden flex justify-between'>
-            <div className="w-[90%] xl:w-1/3 self-center">
+        <section className='pb-8 sm:pb-0 relative h-[100vh] overflow-hidden flex justify-between'>
+            <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
                 <h1 className='text-6xl font-bold'>First-class 3D virtual modelling.</h1>
                 <p className='mt-4 text-xl opacity-80'>With our 3D design services, we can take your idea from the virtual realm and bring it into reality. Our 3D product modelling and rendering permit seeing how the product design comes together before investing time or money into producing physical products.</p>
                <div className='mt-4 flex gap-2 md:gap-4'>
