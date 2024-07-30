@@ -1,0 +1,32 @@
+[
+    {
+        "name": "TRISTAN",
+        "role": "Founder & CEO",
+        "imageUrl": "/team-members/images/TRISTAN.webp",
+        "redirectRoute": "/about/team/tristan"
+    },
+    {
+        "name": "GAB",
+        "role": "Creative/Director",
+        "imageUrl": "/team-members/images/GAB.webp",
+        "redirectRoute": "/about/team/gab"
+    },
+    {
+        "name": "GAB",
+        "role": "Creative/Director",
+        "imageUrl": "/team-members/images/GAB.webp",
+        "redirectRoute": "/about/team/gab"
+    },
+    {
+        "name": "GAB",
+        "role": "Creative/Director",
+        "imageUrl": "/team-members/images/GAB.webp",
+        "redirectRoute": "/about/team/gab"
+    },
+    {
+        "name": "GAB",
+        "role": "Creative/Director",
+        "imageUrl": "/team-members/images/GAB.webp",
+        "redirectRoute": "/about/team/gab"
+    }
+]
