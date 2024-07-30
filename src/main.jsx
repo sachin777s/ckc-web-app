@@ -21,6 +21,7 @@ import Drone from "./pages/Media/Drone/Drone"
 import Photo from "./pages/Media/Photo/Photo"
 import Video from "./pages/Media/Video/Video"
 import Virtual from "./pages/Media/Virtual/Virtual"
+import GetInTouch from './pages/GetInTouch/GetInTouch';
 
 
 const router = createBrowserRouter([
@@ -99,6 +100,10 @@ const router = createBrowserRouter([
       {
         path: "/media/virtual",
         element: < Virtual />
+      },
+      {
+        path:"/get-in-touch",
+        element: <GetInTouch/>
       }
     ]
   }

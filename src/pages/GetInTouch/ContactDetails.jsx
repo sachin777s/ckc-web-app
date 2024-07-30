@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function ContactDetails() {
     return (
-        <section className='mt-20 flex flex-col items-center'>
+        <section className='px-2 mt-20 flex flex-col items-center'>
             <h1 className='text-4xl md:text-6xl font-semibold max-w-[80rem] text-center'>
-                Reach new customers with our marketing campaigns.
+            Contact us directly for a response today.
             </h1>
-            <div className='mt-16 flex flex-col md:flex-row flex-wrap items-center justify-center gap-8'>
-                <div className='py-4 px-2 border w-full md:w-[32rem] flex flex-col items-center'>
+            <div className='w-full mt-16 flex flex-col md:flex-row flex-wrap items-center justify-center gap-8'>
+                <div className='py-4 border w-full md:w-[32rem] flex flex-col items-center'>
                     <img
                         className='w-[30%]'
                         src="/image/email.png"
