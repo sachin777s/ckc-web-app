@@ -9,7 +9,7 @@ export default function HeroSection() {
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
                 <h1 className='text-6xl font-bold'>First-class 3D virtual modelling.</h1>
                 <p className='mt-4 text-xl opacity-80'>With our 3D design services, we can take your idea from the virtual realm and bring it into reality. Our 3D product modelling and rendering permit seeing how the product design comes together before investing time or money into producing physical products.</p>
-               <div className='mt-4 flex gap-2 md:gap-4'>
+               <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
                <ColorButton>View Our Vertial Modeling</ColorButton>
                <TransButton>Get in Touch</TransButton>
                </div>
@@ -24,7 +24,7 @@ export default function HeroSection() {
             />
             <div 
              onClick={()=>window.scrollTo(0,800)}
-            className='absolute bottom-28 left-1/2 flex items-center flex-col gap-2 transition-all duration-300 hover:gap-1'
+            className='absolute bottom-28 left-1/2 hidden sm:flex items-center flex-col gap-2 transition-all duration-300 hover:gap-1'
             >
                 <span className=''>Scroll Down</span>
                 <FaAngleDown />

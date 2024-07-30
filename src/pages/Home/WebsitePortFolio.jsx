@@ -9,7 +9,7 @@ export default function WebsitePortFolio() {
   const iPhoneVideoRef = useRef(null);
 
   return (
-    <section className='mt-12 mb-12 flex gap-8 md:gap-0 items-center justify-between flex-col md:flex-row'>
+    <section className='mt-12 mb-12 flex gap-8 md:gap-0 items-center justify-between flex-col-reverse md:flex-row scale-75 md:scale-100'>
       <div className="md:w-2/6 w-full">
         <h1 className='text-4xl font-bold'>Supreme website design & development</h1>
         <h3 className='mt-4 text-base font-bold'>Web Design Agency London</h3>

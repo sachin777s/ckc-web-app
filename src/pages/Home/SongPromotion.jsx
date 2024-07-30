@@ -3,7 +3,7 @@ import ColorButton from "../../components/asssets/ColorButton"
 
 export default function SongPromotion() {
     return (
-        <section className='h-screen w-full bg-[url(/image/song-public.jpg)] bg-cover'>
+        <section className='mt-20 h-screen w-full bg-[url(/image/song-public.jpg)] bg-cover'>
             <div className='h-full w-full backdrop-brightness-50 flex items-center'>
                 <span></span>
                 <div className='ml-12 w-full md:w-1/3'>
