@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isNavbarOpen, setisNavbarOpen] = useState(false);
 
   return (
-    <header className='z-[100] sticky w-full h-[100px] flex items-center justify-center shadow-[0_0_13px_-3px_var(--main-color)]'>
+    <header className='z-[100] w-full h-[100px] flex items-center justify-center shadow-[0_0_13px_-3px_var(--main-color)]'>
       <nav className='px-2 md:px-4 max-w-[1850px] w-full h-full bg-white flex items-center justify-between'>
         <div>
           <img width={150} src={Logo} alt="..." />
@@ -39,7 +39,7 @@ export default function Navbar() {
                 <span className="mr-1">Marketing</span>
                 <MdOutlineKeyboardArrowDown />
               </NavLink>
-              <ul className="pb-1 bg-[var(--secondary-color)] dropdown-menu static lg:absolute hidden pt-1 shadow-[0_0_12px_-3px_gray] rounded-md">
+              <ul className="pb-1 w-[14rem] bg-[var(--secondary-color)] dropdown-menu static lg:absolute hidden pt-1 shadow-[0_0_12px_-3px_gray] rounded-md">
                 <li className="">
                   <NavLink
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
@@ -280,6 +280,53 @@ export default function Navbar() {
               </ul>
             </div>
 
+            {/* About Dropdown Menu */}
+            <div className="dropdown inline-block relative">
+              <NavLink
+                style={({ isActive }) => ({
+                  color: isActive ? "var(--main-color)" : "",
+                })}
+                className="hover:text-[var(--main-color)] font-medium py-2 px-4 text-[20px] rounded inline-flex items-center"
+                to={"/about"}
+              >
+                <span className="mr-1">About</span>
+                <MdOutlineKeyboardArrowDown />
+              </NavLink>
+              <ul className="pb-1 w-[14rem] bg-[var(--secondary-color)] dropdown-menu static lg:absolute hidden pt-1 shadow-[0_0_12px_-3px_gray] rounded-md">
+                <li className="">
+                  <NavLink
+                    className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
+                    to={"#"}
+                  >
+                    Out Team
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink
+                    className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
+                    to={"#"}
+                  >
+                    Our Accolades
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink
+                    className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
+                    to={"#"}
+                  >
+                    Google Leading Partner
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink
+                    className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
+                    to={"#"}>
+                    Job Opportunities
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+
           </div>
           <ColorButton className="max-w-[14rem] self-center">Get in Touch</ColorButton>
         </div>
@@ -289,9 +336,9 @@ export default function Navbar() {
           onClick={() => setisNavbarOpen(!isNavbarOpen)}
           class="z-50 block lg:hidden space-y-2"
         >
-          <span class="block h-0.5 w-8 bg-gray-600"></span>
-          <span class="block h-0.5 w-8 bg-gray-600"></span>
-          <span class="block h-0.5 w-8 bg-gray-600"></span>
+          <span className={`transition-all duration-200 ${isNavbarOpen ? "translate-y-[5px] rotate-45" : "0"} block h-0.5 w-8 bg-gray-600`}></span>
+          <span className={`transition-all duration-200 ${isNavbarOpen ? "hidden" : "block"} h-0.5 w-8 bg-gray-600`}></span>
+          <span className={`transition-all duration-200 ${isNavbarOpen ? "-translate-y-[5px] -rotate-45" : "0"} block h-0.5 w-8 bg-gray-600`}></span>
         </div>
       </nav>
     </header>

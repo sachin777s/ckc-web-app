@@ -3,7 +3,7 @@ import ColorButton from "../../components/asssets/ColorButton"
 
 export default function VirtualConcept() {
     return (
-        <section className='mt-16 flex flex-col md:flex-row items-center justify-center'>
+        <section className='mt-16 flex gap-8 md:gap-12 flex-col md:flex-row items-center justify-center'>
             <div className="w-full md:w-2/5">
                 <h1 className='text-4xl font-bold'>First-class 3D virtual modelling.</h1>
                 <p className='mt-4 text-xl opacity-80'>With our 3D design services, we can take your idea from the virtual realm and bring it into reality. Our 3D product modelling and rendering permit seeing how the product design comes together before investing time or money into producing physical products.</p>

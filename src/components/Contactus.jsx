@@ -3,23 +3,18 @@ import ColorButton from "./asssets/ColorButton"
 
 export default function Contactus() {
     return (
-        <section className="text-gray-600 body-font">
-            <div className="container px-5 py-24 mx-auto flex items-center justify-center">
+        <section className="mt-20 w-full text-gray-600 body-font bg-[#F9EBEB]">
+            <div className="container px-5 py-24 mx-auto flex gap-8 md:gap-12 items-center justify-center flex-col md:flex-row">
                 <div className="lg:w-3/5 md:w-2/5 md:pr-16 lg:pr-0 pr-0">
-                    <img
-                        style={{ height: '400px', margin: '0 auto' }}
-                        src="/image/form-man-05.png"
-                        alt="form image"
-                    />
-                    <h1 className="title-font text-6xl font-medium text-gray-900 mx-5">
-                        To start growing your business today, contact us
+                    <h1 className='text-4xl md:text-6xl font-semibold'>
+                        To start growing your business today, contact us.
                     </h1>
-                    <p className="leading-relaxed mt-4 fs-3 mx-5">
+                    <p className='mt-4 md:mt-6 text-xl opacity-80'>
                         Let's get to know each other and talk about how we can help you.
                     </p>
                 </div>
 
-                <div className="md:w-3/5">
+                <div className="w-full md:w-3/5">
                     <form
                         action=""
                         className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
@@ -102,7 +97,7 @@ export default function Contactus() {
                             </select>
                         </div>
 
-                        <div className="relative mb-4 col-span-2">
+                        <div className="relative mb-4 col-span-1 md:col-span-2">
                             <label htmlFor="talephone" className="leading-7 text-sm text-gray-600">
                                 Message
                             </label> <br />

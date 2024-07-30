@@ -4,7 +4,7 @@ import TransButton from '../../components/asssets/ColorButton'
 export default function Contactus() {
     return (
         <section>
-            <section className="text-gray-600 body-font">
+            <section className="mt-20 text-gray-600 body-font">
                 <div className="md:w-2/5 md:pr-16 lg:pr-0 pr-0 flex flex-col">
                     <h1 className="title-font font-semibold text-5xl text-gray-900">
                         To start growing your business today, contact us

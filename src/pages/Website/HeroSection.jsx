@@ -7,9 +7,9 @@ export default function HeroSection() {
     return (
         <section className='bg-white relative h-screen overflow-hidden flex justify-between'>
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
-                <h1 className='text-6xl font-bold'>Phenomenal high-performance websites - Web Design Agency London.</h1>
+                <h1 className='text-4xl md:text-6xl font-bold'>Phenomenal high-performance websites - Web Design Agency London.</h1>
                 <p className='mt-4 text-xl opacity-80'>Show you’re business quality and impress your digital audience with your unique style via exceptional web creations.</p>
-                <div className='mt-4 flex gap-2 md:gap-4'>
+                <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
                     <ColorButton>Explore full-scale designs</ColorButton>
                     <TransButton>Get in touch</TransButton>
                 </div>
@@ -24,7 +24,7 @@ export default function HeroSection() {
             />
             <div
                 onClick={() => window.scrollTo(0, 800)}
-                className='absolute bottom-28 left-1/2 flex items-center flex-col gap-2 transition-all duration-300 hover:gap-1'
+                className='absolute bottom-28 left-1/2 hidden sm:flex items-center flex-col gap-2 transition-all duration-300 hover:gap-1'
             >
                 <span className=''>Scroll Down</span>
                 <FaAngleDown />

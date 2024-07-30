@@ -9,7 +9,7 @@ export default function HeroSection() {
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
                 <h1 className='text-6xl font-bold'>Inspiring branded designs .</h1>
                 <p className='mt-4 text-xl opacity-80'>Your brand is your reputation, and excellent brand experiences can transform your company, attracting and engaging customers in meaningful new ways while maximising brand performance and market demand.</p>
-                <div className='mt-4 flex gap-2 md:gap-4'>
+                <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
                     <ColorButton>Tour our media services</ColorButton>
                     <TransButton>Get in touch</TransButton>
                 </div>
@@ -24,7 +24,7 @@ export default function HeroSection() {
             />
             <div
                 onClick={() => window.scrollTo(0, 800)}
-                className='absolute bottom-28 left-1/2 flex items-center flex-col gap-2 transition-all duration-300 hover:gap-1'
+                className='absolute bottom-28 left-1/2 hidden sm:flex items-center flex-col gap-2 transition-all duration-300 hover:gap-1'
             >
                 <span className=''>Scroll Down</span>
                 <FaAngleDown />
