@@ -1,32 +1,68 @@
 [
     {
+        "id": "1",
         "name": "TRISTAN",
         "role": "Founder & CEO",
         "imageUrl": "/team-members/images/TRISTAN.webp",
-        "redirectRoute": "/about/team/tristan"
+        "descriptions": [
+            "Tristan James Newman is the founder and CEO of London Marketing Company, Manchester Marketing Company, Bristol Marketing Company, Cardiff Marketing Company and Reading Marketing Company.",
+            "With a wealth of experience in marketing, consumer behaviour, business development, corporate strategy and sales, Tristan delivers consumer value and long-term, sustainable profitability for his clients. As much experience as Tristan has in practically marketing businesses, he also possesses high-class degrees from Russell Group Universities and the Chartered Institute of Marketers.",
+            "Commencing his marketing journey and operations in his home city of Bristol, Tristan has developed a client base throughout the UK in diverse industries. Bristol Marketing Company, and Tristan, soon developed a reputation of service excellence, growing businesses’ operational size and sustainable profitability levels.",
+            "Tristan and the organisation intend on growing their number of HQs throughout the UK to enhance their speed of promotion and effectiveness in locational marketing."
+        ]
     },
     {
+        "id": "2",
         "name": "GAB",
         "role": "Creative/Director",
         "imageUrl": "/team-members/images/GAB.webp",
-        "redirectRoute": "/about/team/gab"
+        "descriptions": [
+            "Tristan James Newman is the founder and CEO of London Marketing Company, Manchester Marketing Company, Bristol Marketing Company, Cardiff Marketing Company and Reading Marketing Company.",
+            "With a wealth of experience in marketing, consumer behaviour, business development, corporate strategy and sales, Tristan delivers consumer value and long-term, sustainable profitability for his clients. As much experience as Tristan has in practically marketing businesses, he also possesses high-class degrees from Russell Group Universities and the Chartered Institute of Marketers.",
+            "Commencing his marketing journey and operations in his home city of Bristol, Tristan has developed a client base throughout the UK in diverse industries. Bristol Marketing Company, and Tristan, soon developed a reputation of service excellence, growing businesses’ operational size and sustainable profitability levels."
+        ]
     },
     {
-        "name": "GAB",
+        "id": "3",
+        "name": "KATRIEN",
         "role": "Creative/Director",
         "imageUrl": "/team-members/images/GAB.webp",
-        "redirectRoute": "/about/team/gab"
+        "descriptions": [
+            "Tristan James Newman is the founder and CEO of London Marketing Company, Manchester Marketing Company, Bristol Marketing Company, Cardiff Marketing Company and Reading Marketing Company.",
+            "With a wealth of experience in marketing, consumer behaviour, business development, corporate strategy and sales, Tristan delivers consumer value and long-term, sustainable profitability for his clients. As much experience as Tristan has in practically marketing businesses, he also possesses high-class degrees from Russell Group Universities and the Chartered Institute of Marketers.",
+            "Commencing his marketing journey and operations in his home city of Bristol, Tristan has developed a client base throughout the UK in diverse industries. Bristol Marketing Company, and Tristan, soon developed a reputation of service excellence, growing businesses’ operational size and sustainable profitability levels."
+        ]
     },
     {
-        "name": "GAB",
+        "id": "4",
+        "name": "SAM",
         "role": "Creative/Director",
         "imageUrl": "/team-members/images/GAB.webp",
-        "redirectRoute": "/about/team/gab"
+        "descriptions": [
+            "Tristan James Newman is the founder and CEO of London Marketing Company, Manchester Marketing Company, Bristol Marketing Company, Cardiff Marketing Company and Reading Marketing Company.",
+            "With a wealth of experience in marketing, consumer behaviour, business development, corporate strategy and sales, Tristan delivers consumer value and long-term, sustainable profitability for his clients. As much experience as Tristan has in practically marketing businesses, he also possesses high-class degrees from Russell Group Universities and the Chartered Institute of Marketers."
+        ]
     },
     {
-        "name": "GAB",
+        "id": "5",
+        "name": "INNES",
         "role": "Creative/Director",
         "imageUrl": "/team-members/images/GAB.webp",
-        "redirectRoute": "/about/team/gab"
+        "descriptions": [
+            "With a wealth of experience in marketing, consumer behaviour, business development, corporate strategy and sales, Tristan delivers consumer value and long-term, sustainable profitability for his clients. As much experience as Tristan has in practically marketing businesses, he also possesses high-class degrees from Russell Group Universities and the Chartered Institute of Marketers.",
+            "Commencing his marketing journey and operations in his home city of Bristol, Tristan has developed a client base throughout the UK in diverse industries. Bristol Marketing Company, and Tristan, soon developed a reputation of service excellence, growing businesses’ operational size and sustainable profitability levels."
+        ]
+    },
+    {
+        "id": "6",
+        "name": "OLESIA",
+        "role": "Creative/Director",
+        "imageUrl": "/team-members/images/GAB.webp",
+        "descriptions": [
+            "Tristan James Newman is the founder and CEO of London Marketing Company, Manchester Marketing Company, Bristol Marketing Company, Cardiff Marketing Company and Reading Marketing Company.",
+            "With a wealth of experience in marketing, consumer behaviour, business development, corporate strategy and sales, Tristan delivers consumer value and long-term, sustainable profitability for his clients. As much experience as Tristan has in practically marketing businesses, he also possesses high-class degrees from Russell Group Universities and the Chartered Institute of Marketers.",
+            "Commencing his marketing journey and operations in his home city of Bristol, Tristan has developed a client base throughout the UK in diverse industries. Bristol Marketing Company, and Tristan, soon developed a reputation of service excellence, growing businesses’ operational size and sustainable profitability levels.",
+            "Tristan and the organisation intend on growing their number of HQs throughout the UK to enhance their speed of promotion and effectiveness in locational marketing."
+        ]
     }
 ]
