@@ -1,7 +1,12 @@
 import React from 'react'
+import HeroSection from './HeroSection'
+import ImagesGallary from './ImagesGallary'
 
 export default function Packaging() {
   return (
-    <div>Packaging</div>
+    <main>
+      <HeroSection/>
+      <ImagesGallary/>
+    </main>
   )
 }
