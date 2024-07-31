@@ -30,43 +30,61 @@ export default function Photo() {
         </div>
       </section>
 
-      <section style={{backgroundColor: '#efefef'}}>
+      <section style={{ backgroundColor: '#efefef' }}>
         <div className="container">
-        <div className="mt-5 pt-5">
-          <img src="/image/15-1-1-1.webp" alt="" />
-        </div>
-        <div className="mt-5">
-          <img src="/image/EAT_NATURAl-Creative-1.webp" alt="" />
-        </div>
+          <div className="mt-5 pt-5">
+            <div className='w-full overflow-hidden mt-5'>
+              <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/15-1-1-1.webp" alt=".." />
+            </div>
+          </div>
+          <div className="mt-5">
+            <div className='w-full overflow-hidden'>
+              <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/EAT_NATURAl-Creative-1.webp" alt=".." />
+            </div>
+          </div>
         </div>
       </section>
-
+      
       <div className="container">
         <div className="row">
           <div className="col-md-6 mt-5">
-            <img src="/image/12-3-1-1.webp" alt="car-iamge" />
+            <div className='w-full overflow-hidden'>
+              <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/12-3-1-1.webp" alt=".." />
+            </div>
           </div>
           <div className="col-md-6 mt-5">
-            <img src="/image/3-3-1.webp" alt="" />
+            <div className='w-full overflow-hidden'>
+              <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/3-3-1.webp" alt=".." />
+            </div>
           </div>
         </div>
 
         <div className="row">
           <div className="col-md-6 mt-5">
-            <img src="/image/aerial-view-ca.jpg" alt="image" />
+            <div className='w-full overflow-hidden'>
+              <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/aerial-view-ca.jpg" alt=".." />
+            </div>
           </div>
           <div className="col-md-6 mt-5">
-            <img src="/image/green-car-desert.jpg" alt="" />
+            <div className='w-full overflow-hidden'>
+              <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/green-car-desert.jpg" alt=".." />
+            </div>
           </div>
         </div>
-        <div className="mt-5  ">
-          <img src="/image/8-1-1-1.webp" alt="" />
+        <div className="mt-5">
+          <div className='w-full overflow-hidden'>
+            <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/8-1-1-1.webp" alt=".." />
+          </div>
         </div>
         <div className="mt-5">
-          <img src="/image/Hendricks-Gin-1.webp" alt="" />
+          <div className='w-full overflow-hidden'>
+            <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/Hendricks-Gin-1.webp" alt=".." />
+          </div>
         </div>
         <div className="mt-5">
-          <img src="/image/12-2-1-1.webp" alt="" />
+          <div className='w-full overflow-hidden'>
+            <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/12-2-1-1.webp" alt=".." />
+          </div>
         </div>
       </div>
     </>

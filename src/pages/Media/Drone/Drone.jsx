@@ -19,19 +19,19 @@ export default function Drone() {
           </div>
         </div>
 
-        <div onClick={()=>window.scrollBy(0,600)}
-         className='absolute -bottom-10 left-1/2 text-center flex flex-col'>
+        <div onClick={() => window.scrollBy(0, 600)}
+          className='absolute -bottom-10 left-1/2 text-center flex flex-col'>
           <span className='text-warning'>Scroll Down</span>
           <span className='mt-4 self-center fs-3 text-warning'><IoIosArrowDown /></span>
         </div>
       </section>
-        
+
       <section>
         <div className="container">
           <div className="row">
             <div className="row">
               <div className="col-md-6 mt-5">
-                <iframe className='ms-5 mt-5' src="https://player.vimeo.com/video/731809333?h=fd304d0b3b" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <iframe className=' mt-5' src="https://player.vimeo.com/video/731809333?h=fd304d0b3b" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                 <p><a href="https://vimeo.com/731809333"></a><a href="https://vimeo.com/user180559931"></a><a href="https://vimeo.com"></a></p>
               </div>
               <div className="col-md-6 mt-5">
@@ -42,14 +42,20 @@ export default function Drone() {
             </div>
           </div>
           <div className="mt-5">
-            <img src="/image/dark-car.jpg" alt="" />
+            <div className='w-full overflow-hidden'>
+              <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/dark-car.jpg" alt=".." />
+            </div>
           </div>
           <div className="row">
             <div className="col-md-6 mt-5">
-              <img src="/image/mumbai-city.jpg" alt="" />
+              <div className='w-full overflow-hidden'>
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/mumbai-city.jpg" alt=".." />
+              </div>
             </div>
             <div className="col-md-6 mt-5">
-              <img src="/image/beautiful.jpg" alt="" />
+              <div className='w-full overflow-hidden'>
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/beautiful.jpg" alt=".." />
+              </div>
             </div>
           </div>
         </div>
