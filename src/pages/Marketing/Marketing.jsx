@@ -8,7 +8,7 @@ export default function Marketing() {
 
   return (
     <>
-      <section style={{ backgroundImage: 'url(/image/bulding.jpg)', backgroundSize: 'cover', paddingTop: '100px', paddingBottom: "100px", position:"relative"}}>
+      <section style={{ backgroundImage: 'url(/image/bulding.jpg)', backgroundSize: 'cover', paddingTop: '100px', paddingBottom: "100px", position: "relative" }}>
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
@@ -18,19 +18,19 @@ export default function Marketing() {
               <TransButton className="fs-4 mt-5 ms-5 rounded-pill">Get in touch</TransButton>
             </div>
             <div className="col-md-6">
-            </div>   
+            </div>
           </div>
         </div>
 
-        <div onClick={()=>window.scrollBy(0,600)}
-         className='absolute bottom-20 left-1/2 text-center flex flex-col'>
+        <div onClick={() => window.scrollBy(0, 600)}
+          className='absolute bottom-20 left-1/2 text-center flex flex-col'>
           <span className='text-danger'>Scroll Down</span>
           <span className='mt-4 self-center text-danger fs-3'><IoIosArrowDown /></span>
         </div>
 
       </section>
 
-      <section style={{ backgroundColor: "#f1f1f1" }}>
+      <section style={{ backgroundColor: "#f1f1f1"}}>
         <div className="container">
           <h1 className='fs-1 fw-bold ms-5 mt-5 mb-5'>Business &  marketing practices we specialise in.</h1>
           <div className="row">
@@ -42,8 +42,8 @@ export default function Marketing() {
                 <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Business Expansion</p>
                 <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Business Planning</p>
                 <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Business Start-Up & Scale</p>
-                <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Cash Flow Forecasting & Budget</p>
-                <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Investment Assistance & Pitch Decks</p>
+                <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Cash Flow Forecasting & <span className='ms-5'>Budget</span></p>
+                <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Investment Assistance & <span className='ms-5'>Pitch Decks</span></p>
                 <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Outdoor Marketing</p>
                 <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Profit Maximisation Strategies</p>
                 <p className='fs-4'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Survival Strategies</p>
@@ -53,7 +53,7 @@ export default function Marketing() {
               <img style={{ height: '250px', marginLeft: "50px" }} src="/image/markating.png" alt="" />
               <h1 className='fs-3 ms-5 fw-bold'>Marketing Enhancement</h1>
               <p className='fs-4 ms-5 mt-3'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Branding & Positioning</p>
-              <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Customer Retention & Loyalty </p>
+              <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Customer Retention & <span className='ms-5'>Loyalty</span> </p>
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Experiential Marketing</p>
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Marketing Audits</p>
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Market Segmentation</p>
@@ -61,7 +61,7 @@ export default function Marketing() {
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Relationship Marketing</p>
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Targetting</p>
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Theoretical Marketing</p>
-              <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Visual Merchandising For Retail</p>
+              <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Visual Merchandising For <span className='ms-5'>Retail</span></p>
             </div>
             <div className="col-md-4">
               <img style={{ height: '250px', marginLeft: "50px" }} src="/image/digital-markating.png" alt="" />
@@ -72,7 +72,7 @@ export default function Marketing() {
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Professional Photography</p>
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Search Engine Optimisation</p>
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Social Media Marketing</p>
-              <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Website Design & Development</p>
+              <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Website Design & <span className='ms-5'>Development</span></p>
               <p className='fs-4 ms-5'> <i class="bi bi-check-square-fill me-2 text-danger"></i> Video Marketing</p>
             </div>
           </div>
@@ -81,8 +81,8 @@ export default function Marketing() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
-              <div>
-                <img className='mt-5 transform' src="/image/new-york-city.jpg" alt="" />
+              <div className='w-full overflow-hidden mt-5'>
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/new-york-city.jpg" alt=".." />
               </div>
             </div>
             <div className="col-md-6">
@@ -127,7 +127,9 @@ export default function Marketing() {
               </div>
             </div>
             <div className="col-md-6 mt-5">
-              <img className='mt-5' src="/image/beautiful.jpg" alt="" />
+              <div className='w-full overflow-hidden mt-5'>
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/beautiful.jpg" alt=".." />
+              </div>
             </div>
           </div>
         </div>
@@ -172,8 +174,8 @@ export default function Marketing() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
-              <div>
-                <img className='mt-5 transform' src="/image/fresh-orange.jpg" alt="" />
+              <div className='w-full overflow-hidden mt-5'>
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/fresh-orange.jpg" alt=".." />
               </div>
             </div>
             <div className="col-md-6">
@@ -196,7 +198,9 @@ export default function Marketing() {
               </div>
             </div>
             <div className="col-md-6 mt-5">
-              <img className='mt-5 transform' src="/image/view-contemporary.jpg" alt="" />
+              <div className='w-full overflow-hidden mt-5'>
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/view-contemporary.jpg" alt=".." />
+              </div>
             </div>
           </div>
         </div>
@@ -204,7 +208,9 @@ export default function Marketing() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
-              <img className='mt-5 transform' src="/image/black-white.jpg" alt="" />
+              <div className='w-full overflow-hidden mt-5'>
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/black-white.jpg" alt=".." />
+              </div>
               <div>
               </div>
             </div>
@@ -250,7 +256,9 @@ export default function Marketing() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
-              <img className='mt-5 transform' src="/image/hacker.jpg" alt="" />
+              <div className='w-full overflow-hidden mt-5'>
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/hacker.jpg" alt=".." />
+              </div>
               <div>
               </div>
             </div>
@@ -274,7 +282,9 @@ export default function Marketing() {
               </div>
             </div>
             <div className="col-md-6 mt-5">
-              <img className='mt-5 transform' src="/image/two-smal.jpg" alt="" />
+              <div className='w-full overflow-hidden mt-5'>
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/two-smal.jpg" alt=".." />
+              </div>
             </div>
           </div>
         </div>
@@ -284,7 +294,7 @@ export default function Marketing() {
         <h1 className='fs-1 text-center mt-5 fw-bold'>What is Search Engine <br /> Optimisation?</h1>
         <div className="row">
           <div className="col-md-4">
-            <div className="card mt-5 rounded-0 border-0" style={{ backgroundColor: '#f0f0f0'}}>
+            <div className="card mt-5 rounded-0 border-0" style={{ backgroundColor: '#f0f0f0' }}>
               <div style={{ margin: '0 auto' }}>
                 <img className='mt-5' src="/image/text.png" alt="text-image " />
               </div>
@@ -322,7 +332,7 @@ export default function Marketing() {
               <Link to={'/'}><p className='text-center fs-4 mt-5 mb-5'>Learn more <i class="bi bi-arrow-right text-primary"></i></p></Link>
             </div>
           </div>
-          
+
           <div className="col-md-4">
             <div className="card mt-5 rounded-0 border-0" style={{ backgroundColor: '#f0f0f0' }}>
               <div style={{ margin: '0 auto' }}>
@@ -466,7 +476,7 @@ export default function Marketing() {
                     <option>£100+</option>
                   </select>
                 </div>
-              
+
                 <div className="relative mb-4 col-span-2">
                   <label htmlFor="talephone" className="leading-7 text-sm text-gray-600">
                     Message
