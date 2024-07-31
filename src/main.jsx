@@ -22,6 +22,7 @@ import Photo from "./pages/Media/Photo/Photo"
 import Video from "./pages/Media/Video/Video"
 import Virtual from "./pages/Media/Virtual/Virtual"
 import GetInTouch from './pages/GetInTouch/GetInTouch';
+import TeamMember from './pages/About/TeamMember';
 
 
 const router = createBrowserRouter([
@@ -104,6 +105,10 @@ const router = createBrowserRouter([
       {
         path:"/get-in-touch",
         element: <GetInTouch/>
+      },
+      {
+        path:"/about/team-member/:id",
+        element:<TeamMember/>
       }
     ]
   }

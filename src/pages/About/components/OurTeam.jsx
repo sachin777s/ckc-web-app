@@ -41,7 +41,7 @@ export default function OurTeam() {
                             </span>
                             <NavLink
                                 className="group mt-8 flex items-center gap-1"
-                                to={member.redirectRoute}
+                                to={`/about/team-member/${member.id}`}
                             >
                                 Read More
                                 <BsArrowRight

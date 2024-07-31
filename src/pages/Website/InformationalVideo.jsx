@@ -9,7 +9,7 @@ export default function InformationalVideo() {
     const rightVideoRef = useRef(null);
 
     return (
-        <section>
+        <section className='mt-20'>
             <div>
                 <h1 className='text-center text-6xl font-semibold'>
                     Informational websites
