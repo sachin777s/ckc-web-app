@@ -18,7 +18,7 @@ export default function Marketing() {
               <TransButton className="fs-4 mt-5 ms-5 rounded-pill">Get in touch</TransButton>
             </div>
             <div className="col-md-6">
-            </div>
+            </div>   
           </div>
         </div>
 
@@ -284,7 +284,7 @@ export default function Marketing() {
         <h1 className='fs-1 text-center mt-5 fw-bold'>What is Search Engine <br /> Optimisation?</h1>
         <div className="row">
           <div className="col-md-4">
-            <div className="card mt-5 rounded-0 border-0" style={{ backgroundColor: 'white' }}>
+            <div className="card mt-5 rounded-0 border-0" style={{ backgroundColor: '#f0f0f0'}}>
               <div style={{ margin: '0 auto' }}>
                 <img className='mt-5' src="/image/text.png" alt="text-image " />
               </div>
@@ -322,6 +322,7 @@ export default function Marketing() {
               <Link to={'/'}><p className='text-center fs-4 mt-5 mb-5'>Learn more <i class="bi bi-arrow-right text-primary"></i></p></Link>
             </div>
           </div>
+          
           <div className="col-md-4">
             <div className="card mt-5 rounded-0 border-0" style={{ backgroundColor: '#f0f0f0' }}>
               <div style={{ margin: '0 auto' }}>
@@ -465,7 +466,7 @@ export default function Marketing() {
                     <option>£100+</option>
                   </select>
                 </div>
-
+              
                 <div className="relative mb-4 col-span-2">
                   <label htmlFor="talephone" className="leading-7 text-sm text-gray-600">
                     Message
