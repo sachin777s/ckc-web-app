@@ -1,7 +1,26 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import ColorButton from "./asssets/ColorButton"
+import emailjs from '@emailjs/browser';
 
 export default function Contactus() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm("service_bszijfa", "template_x077ulk", form.current, { publicKey: "hZljo0FBv9iqkb3P8", })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
+
     return (
         <section className="mt-20 w-full text-gray-600 body-font bg-[#F9EBEB]">
             <div className="container px-5 py-24 mx-auto flex gap-8 md:gap-12 items-center justify-center flex-col md:flex-row">
@@ -16,6 +35,8 @@ export default function Contactus() {
 
                 <div className="w-full md:w-3/5">
                     <form
+                        onSubmit={sendEmail}
+                        ref={form}
                         action=""
                         className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
                         <div className="relative mb-4">
@@ -24,7 +45,7 @@ export default function Contactus() {
                             </label>
                             <input
                                 type="text"
-                                name="name"
+                                name="from_name"
                                 className="w-full bg-white rounded border border-gray-300 focus:ring-2 focus:ring-[var(--main-color)] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             />
                         </div>
@@ -35,7 +56,7 @@ export default function Contactus() {
                             </label>
                             <input
                                 type="email"
-                                name="email"
+                                name="from_email"
                                 className="w-full bg-white rounded border border-gray-300 focus:border-[var(--main-color)] focus:ring-2 focus:ring-[var(--main-color)] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             />
                         </div>
@@ -46,7 +67,7 @@ export default function Contactus() {
                             </label>
                             <input
                                 type="company"
-                                name="company"
+                                name="from_company"
                                 className="w-full bg-white rounded border border-gray-300 focus:ring-2 focus:ring-[var(--main-color)] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             />
                         </div>
@@ -57,18 +78,18 @@ export default function Contactus() {
                             </label>
                             <input
                                 type="talephone"
-                                name="talephone"
+                                name="from_mob"
                                 className="w-full bg-white rounded border border-gray-300 focus:ring-2 focus:ring-[var(--main-color)] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                             />
                         </div>
 
                         <div className="relative mb-4">
                             <label htmlFor="talephone" className="leading-7 text-sm text-gray-600">
-                                What's your budget?
+                                What's your email regarding?
                             </label>
                             <select
                                 type="talephone"
-                                name="talephone"
+                                name="from_service"
                                 className="w-full bg-white rounded border border-gray-300 focus:ring-2 focus:ring-[var(--main-color)] text-base outline-none text-gray-700 py-[10px] px-3 leading-8 transition-colors duration-200 ease-in-out"
                             >
                                 <option>Marketing</option>
@@ -81,19 +102,18 @@ export default function Contactus() {
 
                         <div className="relative mb-4">
                             <label htmlFor="talephone" className="leading-7 text-sm text-gray-600">
-                                What's your email regarding?
+                            What's your budget?
                             </label>
                             <select
-                                type="talephone"
-                                name="talephone"
+                                name="from_price"
                                 className="w-full bg-white rounded border border-gray-300 focus:ring-2 focus:ring-[var(--main-color)] text-base outline-none text-gray-700 py-[10px] px-3 leading-8 transition-colors duration-200 ease-in-out"
                             >
-                                <option>£0 - £1k</option>
-                                <option>£1 - £5</option>
-                                <option>£5 - £10</option>
-                                <option>£10 - £25</option>
-                                <option>£25 - £100</option>
-                                <option>£100+</option>
+                                <option>₹0 - ₹1k</option>
+                                <option>₹1K - ₹5K</option>
+                                <option>₹5K - ₹10K</option>
+                                <option>₹10K - ₹25K</option>
+                                <option>₹25K - ₹100K</option>
+                                <option>₹100K+</option>
                             </select>
                         </div>
 
@@ -106,7 +126,9 @@ export default function Contactus() {
                                 id="message"
                                 className="w-full bg-white rounded border border-gray-300 focus:ring-2 focus:ring-[var(--main-color)] text-base outline-none text-gray-700 py-[10px] px-3 leading-8 transition-colors duration-200 ease-in-out" />
                         </div>
-                        <ColorButton>Submit</ColorButton>
+                        <button type='submit'>
+                            <ColorButton>Submit</ColorButton>
+                        </button>
                     </form>
                 </div>
             </div>
