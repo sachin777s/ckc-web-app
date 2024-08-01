@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <header className='z-[100] sticky w-full h-[100px] flex items-center justify-center shadow-[0_0_13px_-3px_var(--main-color)]'>
-      <nav className='px-2 md:px-4 max-w-[1850px] w-full h-full bg-white flex items-center justify-between'>
+      <nav className='px-2 md:px-4 max-w-[1810px] w-full h-full bg-white flex items-center justify-between'>
         <div>
           <img width={150} src={Logo} alt="..." />
         </div>

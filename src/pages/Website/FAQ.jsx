@@ -8,7 +8,7 @@ export default function FAQ() {
     const [isThirdOpen, setIsThirdOpen] = useState(false);
 
     return (
-        <section className='mt-20 flex items-start justify-between flex-col md:flex-row'>
+        <section className='container-tailwind mt-20 flex items-start justify-between flex-col md:flex-row'>
             <div className='w-full md:w-2/5 max-w-[28rem]'>
                 <h1 className='text-5xl font-semibold'>How your content can work for you.</h1>
                 <p className='mt-12 text-xl opacity-80'>The London Marketing Company’s content writing experts can produce professional-grade copy that captures and articulates what your company stands for. Get in touch with us today to see how we can help you.</p>

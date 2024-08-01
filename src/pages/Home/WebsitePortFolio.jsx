@@ -9,14 +9,14 @@ export default function WebsitePortFolio() {
   const iPhoneVideoRef = useRef(null);
 
   return (
-    <section className='mt-12 mb-12 flex gap-8 md:gap-0 items-center justify-between flex-col-reverse md:flex-row scale-75 md:scale-100'>
-      <div className="md:w-2/6 w-full">
+    <section className='mt-12 mb-12 flex gap-8 md:gap-0 items-center justify-center flex-col-reverse md:flex-row scale-75 md:scale-100'>
+      <div className="md:w-2/5 w-full">
         <h1 className='text-4xl font-bold'>Supreme website design & development</h1>
         <h3 className='mt-4 text-base font-bold'>Web Design Agency London</h3>
         <p className='mt-4 text-xl opacity-80'>Your website is the digital face of your business online. Invest in empowering and encapsulating website design and full-stack development.</p>
         <ColorButton className="mt-4">Check Our Website Portfolio</ColorButton>
       </div>
-      <div className="md:w-4/6 w-full flex flex-col items-center">
+      <div className="md:w-2/5 w-full flex flex-col items-center">
         <div className='relative'>
           <video
             className='w-full md:w-[46rem]'

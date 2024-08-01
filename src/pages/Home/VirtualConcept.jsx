@@ -3,10 +3,10 @@ import ColorButton from "../../components/asssets/ColorButton"
 
 export default function VirtualConcept() {
     return (
-        <section className='mt-16 flex gap-8 md:gap-12 flex-col md:flex-row items-center justify-center'>
+        <section className='container-tailwind mt-16 flex gap-8 md:gap-12 flex-col md:flex-row items-center justify-center'>
             <div className="w-full md:w-2/5">
-                <h1 className='text-4xl font-bold'>First-class 3D virtual modelling.</h1>
-                <p className='mt-4 text-xl opacity-80'>With our 3D design services, we can take your idea from the virtual realm and bring it into reality. Our 3D product modelling and rendering permit seeing how the product design comes together before investing time or money into producing physical products.</p>
+                <h1 className='text-4xl font-bold'>Fully immersive 3D & 360° virtual concepts.</h1>
+                <p className='mt-4 text-xl opacity-80'>If you want to increase visitor engagement and promote your bespoke offering, then London Marketing Company’s 3D virtual tours are a unique marketing tool.</p>
                 <ColorButton className="mt-4">View Our Vertial Modeling</ColorButton>
             </div>
             <div className="w-full md:w-1/2 flex items-center justify-center">

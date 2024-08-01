@@ -25,7 +25,7 @@ export default function TeamMember() {
     return (
         <main className='pt-28'>
             {/* Profile Section */}
-            <section className="w-full ld:w-auto flex gap-32 flex-col lg:flex-row items-center justify-center">
+            <section className="w-full ld:w-auto flex gap-32 flex-col lg:flex-row items-start justify-center">
                 <div className="w-full lg:w-auto flex flex-col items-center">
                     <img
                         className='max-w-64'
@@ -37,8 +37,7 @@ export default function TeamMember() {
                     </span>
                 </div>
                 <div className="w-full lg:w-1/2">
-                    <img src="" alt="" />
-                    <ul className='flex flex-col items-start gap-6'>
+                    <ul className='flex flex-col items-center lg:items-start gap-6'>
                         <img
                             className='w-[12rem]'
                             src="/image/CKC Abhinaw-03.png"

@@ -3,7 +3,7 @@ import ColorButton from "../../../components/asssets/ColorButton"
 
 export default function Packaging() {
     return (
-        <section className='w-full mt-12 flex gap-8 md:gap-12 items-center justify-around flex-col-reverse md:flex-row'>
+        <section className='container-tailwind w-full mt-12 flex gap-8 md:gap-12 items-center justify-around flex-col-reverse md:flex-row'>
             <div className="md:w-2/5 w-full">
                 <h1 className='text-4xl font-bold'>
                     Targeted product packaging .
