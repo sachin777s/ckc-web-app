@@ -3,7 +3,7 @@ import ColorButton from "../../../components/asssets/ColorButton"
 
 export default function VideoMarketing() {
     return (
-        <section className='mt-16 flex flex-col gap-8 md:flex-row items-center justify-center'>
+        <section className='container-tailwind mt-16 flex flex-col gap-8 md:flex-row items-center justify-center'>
             <div className="w-full md:w-1/2 flex items-center justify-center">
                 <iframe
                     className=''

@@ -3,7 +3,7 @@ import ColorButton from "../../components/asssets/ColorButton"
 
 export default function GrowthPartner() {
   return (
-    <section className='mt-20 flex gap-8 md:gap-12 items-center flex-col md:flex-row'>
+    <section className='container-tailwind mt-20 flex gap-8 md:gap-12 items-center flex-col md:flex-row'>
       <div className="w-full md:w-1/2 self-start">
         <div className='w-full h-full overflow-hidden rounded-md'>
           <img

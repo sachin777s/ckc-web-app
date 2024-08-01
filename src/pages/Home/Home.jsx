@@ -8,21 +8,21 @@ import SongPromotion from './SongPromotion'
 import VirtualModeling from './VirtualModeling'
 import VirtualConcept from './VirtualConcept'
 import GrowthPartner from './GrowthPartner'
-import Contactus from './Contactus'
+import Contactus from '../../components/Contactus'
 
 export default function Home() {
   return (
     <main className='w-full'>
       <HeroSection />
       <Partners />
-      < WebsitePortFolio />
+      <WebsitePortFolio />
       <Promotion />
       <Branding />
-      <SongPromotion/>
-      <VirtualModeling/>
-      <VirtualConcept/>
-      <GrowthPartner/>
-      <Contactus/>
+      <SongPromotion />
+      <VirtualModeling />
+      <VirtualConcept />
+      <GrowthPartner />
+      <Contactus />
     </main>
   )
 }

@@ -4,7 +4,7 @@ import ColorButton from "../../../components/asssets/ColorButton"
 
 export default function MarketingConcept() {
     return (
-        <section className='mt-16 flex flex-col-reverse gap-8 md:flex-row items-center justify-center'>
+        <section className='container-tailwind mt-16 flex flex-col-reverse gap-8 md:flex-row items-center justify-center'>
             <div className="w-full md:w-2/5">
                 <h1 className='text-4xl font-bold'>Exciting video marketing concepts.</h1>
                 <p className='mt-4 text-xl opacity-80'>With our high-quality equipment and expertise, we create cinematic videos that tell a brand's unique story.</p>

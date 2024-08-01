@@ -3,7 +3,7 @@ import ColorButton from "../../../components/asssets/ColorButton"
 
 export default function LogoDesign() {
     return (
-        <section className='mt-12 flex gap-8 md:gap-12 items-center justify-center flex-col-reverse md:flex-row'>
+        <section className='container-tailwind mt-12 flex gap-8 md:gap-12 items-center justify-between flex-col-reverse md:flex-row'>
             <div className="md:w-2/5 w-full">
                 <h1 className='text-4xl font-bold'>
                     Logo design & illustrations.

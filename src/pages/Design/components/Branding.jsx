@@ -3,11 +3,11 @@ import ColorButton from "../../../components/asssets/ColorButton"
 
 export default function Branding() {
     return (
-        <section className='mt-12 flex items-center justify-between flex-col md:flex-row'>
-            <div className="flex items-center justify-center">
-                <img className='w-full scale-100 sm:scale-75' src="/image/assential-img.webp" alt=".." />
+        <section className='container-tailwind mt-12 flex items-center justify-between flex-col md:flex-row'>
+            <div className="w-full md:w-1/2 flex items-center justify-center">
+                <img className='w-full scale-100' src="/image/assential-img.webp" alt=".." />
             </div>
-            <div className="w-full md:w-1/2 pt-0 lg:pr-32">
+            <div className="w-full md:w-1/2 pt-0">
                 <h1 className='text-4xl font-bold'>
                     Encapsulating branding & delivery.
                 </h1>

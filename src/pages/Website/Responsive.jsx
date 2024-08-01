@@ -9,8 +9,8 @@ export default function Responsive() {
     const iPhoneRef = useRef(null);
 
     return (
-        <section className="mt-20 flex items-center flex-col-reverse md:flex-row gap-8">
-            <div className="w-full md:w-1/2 pr-0 md:pr-48 flex flex-col">
+        <section className="mt-20 flex items-center justify-center flex-col-reverse lg:flex-row gap-8">
+            <div className="w-full lg:w-2/5 pr-0 md:pr-48 flex flex-col">
                 <h1 className='text-4xl md:text-5xl font-semibold'>Websites that are responsive to all devices.</h1>
                 <p className='mt-8 text-xl opacity-80'>
                     Your website must be fully responsive for all devices, desktop, tablet and mobile, or you can lose customers. Our web enthusiasts will ensure your new site is high performing, sleek and stylish with a sophisticated design that impresses people on any device!
@@ -21,7 +21,7 @@ export default function Responsive() {
                 <ColorButton className="mt-6 self-center" >Enquire Now</ColorButton>
                 <div className=''></div>
             </div>
-            <div className="w-full md:w-1/2">
+            <div className="w-full lg:w-2/5">
                 <div className='w-full flex items-end gap-12 md:gap-24'>
                     <video
                         className='w-1/2 md:w-2/5'
