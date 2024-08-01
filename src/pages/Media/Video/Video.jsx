@@ -34,7 +34,7 @@ export default function Video() {
               <h1 className='text-5xl font-bold'>Rememberable video marketing.</h1>
               <p className='mt-4 text-xl opacity-80'>Immerse your customers in a video to see your business from a new perspective and experience your story from beginning to end.</p>
             </div>
-          </div>
+          </div>  
         </section>
 
         <section className="text-gray-600 body-font" style={{backgroundColor: '#d0d0d0', marginTop: '70px'}}>
