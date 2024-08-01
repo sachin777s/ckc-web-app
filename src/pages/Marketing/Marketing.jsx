@@ -381,15 +381,15 @@ export default function Marketing() {
 
       {/* Get in Touch form */}
       {/****** THIS SECTION IN TAILWIND CSS ******/}
-      <section>
+      <section style={{backgroundColor: '#d0d0d0', marginTop: '70px'}}>
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto flex items-center justify-center">
             <div className="lg:w-3/5 md:w-2/5 md:pr-16 lg:pr-0 pr-0">
               <img style={{ height: '400px', margin: '0 auto' }} src="/image/form-man-05.png" alt="form image" />
-              <h1 className="title-font text-6xl font-medium text-gray-900 mx-5">
+              <h1 className="title-font fs-1 font-medium text-gray-900 mx-5">
                 To start growing your business today, contact us
               </h1>
-              <p className="leading-relaxed mt-4 fs-3 mx-5">
+              <p className="leading-relaxed mt-4 fs-5 mx-5">
                 Let's get to know each other and talk about how we can help you.
               </p>
             </div>
