@@ -55,7 +55,7 @@ export default function SixWays() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16 lg:gap-24 xl:gap-28">
                 {
                     sixWays.map((singleWay, i) =>
-                        <div className="py-8 px-2 md:px-4 rounded-xl shadow-[0_0_9px_-2px_var(--main-color)] transition-all duration-300 hover:shadow-[10px_10px_12px_-3px_var(--main-color)]">
+                        <div className="py-8 px-2 md:px-4 bg-[var(--secondary-color)] shadow-[0_0_12px_-3px_var(--main-color)]">
                             <div className='absolute'></div>
                             <div
                                 className="flex flex-col items-center"

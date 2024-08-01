@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactDetails() {
     return (
-        <section className='mt-20 flex flex-col items-center'>
+        <section className='mt-20 py-4  bg-[var(--bg-secondary)] flex flex-col items-center'>
             <h1 className='text-4xl md:text-6xl font-semibold max-w-[80rem] text-center'>
                 Reach new customers with our marketing campaigns.
             </h1>

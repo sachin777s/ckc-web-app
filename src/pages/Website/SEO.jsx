@@ -57,7 +57,7 @@ export default function SEO() {
                         seoTopics.map((singleTopic, i) =>
                             <div
                                 key={i}
-                                className='w-full md:w-auto py-8 px-2 flex flex-col items-center md:px-4 rounded-xl shadow-[0_0_9px_-2px_var(--main-color)] transition-all duration-300 hover:shadow-[10px_10px_12px_-3px_var(--main-color)]'
+                                className='w-full md:w-auto py-8 px-2 bg-[var(--secondary-color)] flex flex-col items-center md:px-4 rounded-xl shadow-[0_0_9px_-2px_var(--main-color)]'
                             >
                                 <img
                                     className='w-24'

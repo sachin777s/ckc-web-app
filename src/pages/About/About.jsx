@@ -12,9 +12,11 @@ export default function About() {
   return (
     <main className='w-full'>
       <HeroSection />
-      <States />
-      <OurTeam />
-      <Jobs />
+      <section className='my-8 pb-4 bg-[var(--bg-secondary)]'>
+        <States />
+        <OurTeam />
+        <Jobs />
+      </section>
       <ProfessionalMarketing />
       <ServicesTypingEffect />
       <ContactDetails />

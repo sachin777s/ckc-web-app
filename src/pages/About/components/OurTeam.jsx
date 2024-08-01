@@ -27,7 +27,7 @@ export default function OurTeam() {
                     teamMembers.map((member, i) =>
                         <div
                             key={i}
-                            className='py-6 w-[20rem] flex flex-col items-center border-1 rounded-md'>
+                            className='bg-[var(--secondary-color)] py-6 w-[20rem] flex flex-col items-center border-1 rounded-md'>
                             <img
                                 className='w-[14rem] rounded-[100%]'
                                 src={member.imageUrl}
