@@ -16,12 +16,16 @@ export default function Home() {
       <HeroSection />
       <Partners />
       <WebsitePortFolio />
-      <Promotion />
-      <Branding />
+      <section className='py-4 bg-[var(--bg-secondary)]'>
+        <Promotion />
+        <Branding />
+      </section>
       <SongPromotion />
-      <VirtualModeling />
-      <VirtualConcept />
-      <GrowthPartner />
+      <section className='py-4 bg-[var(--bg-secondary)]'>
+        <VirtualModeling />
+        <VirtualConcept />
+        <GrowthPartner />
+      </section>
       <Contactus />
     </main>
   )

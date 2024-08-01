@@ -20,16 +20,18 @@ export default function Website() {
       <HeroSection />
       <InformationalVideo />
       <Booking />
-      <Responsive />
-      <States />
-      <SixWays />
-      <SEO />
-      <SEOstates />
-      <ServicesTypingEffect />
-      <WebHosting />
-      <PlayPerClick />
-      <ContentWriting />
-      <FAQ />
+      <section className='py-8 mt-4 bg-[var(--bg-secondary)]'>
+        <Responsive />
+        <States />
+        <SixWays />
+        <SEO />
+        <SEOstates />
+        <ServicesTypingEffect />
+        <WebHosting />
+        <PlayPerClick />
+        <ContentWriting />
+        <FAQ />
+      </section>
       <Contactus />
     </main>
   )

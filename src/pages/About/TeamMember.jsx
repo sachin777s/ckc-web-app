@@ -23,7 +23,7 @@ export default function TeamMember() {
     }, [singleMember])
 
     return (
-        <main className='pt-28'>
+        <main className='bg-[var(--bg-secondary)] py-28'>
             {/* Profile Section */}
             <section className="w-full ld:w-auto flex gap-32 flex-col lg:flex-row items-start justify-center">
                 <div className="w-full lg:w-auto flex flex-col items-center">

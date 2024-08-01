@@ -10,11 +10,13 @@ export default function Media() {
   return (
     <main>
       <HeroSection />
-      <Photography />
-      <VideoMarketing />
-      <MarketingConcept />
-      <DronePromotion />
-      <Contactus/>
+      <section className='pt-8 bg-[var(--bg-secondary)]'>
+        <Photography />
+        <VideoMarketing />
+        <MarketingConcept />
+        <DronePromotion />
+      </section>
+      <Contactus />
     </main>
   )
 }

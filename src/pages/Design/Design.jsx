@@ -12,13 +12,15 @@ export default function Design() {
   return (
     <main>
       <HeroSection />
-      <Branding />
-      <LogoDesign/>
-      <TradeShows/>
-      <Packaging/>
-      <Corporate/>
-      <PrintDesign/>
-      <Contactus/>
+      <section className='my-8 bg-[var(--bg-secondary)]'>
+        <Branding />
+        <LogoDesign />
+        <TradeShows />
+        <Packaging />
+        <Corporate />
+        <PrintDesign />
+      </section>
+      <Contactus />
     </main>
   )
 }
