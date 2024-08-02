@@ -221,6 +221,14 @@ export default function Navbar() {
                     3D
                   </NavLink>
                 </li>
+                <li className="">
+                  <NavLink
+                    className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
+                    to={"/media/products"}
+                  >
+                    Products
+                  </NavLink>
+                </li>
               </ul>
             </div>
 
