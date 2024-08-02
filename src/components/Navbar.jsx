@@ -2,20 +2,16 @@ import React, { useState } from 'react';
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import Logo from "../assets/logo.png";
 import ColorButton from './asssets/ColorButton';
-import { NavLink, redirect } from 'react-router-dom';
-import { useNavigate } from "react-router-dom"
+import { NavLink, } from 'react-router-dom';
 
 export default function Navbar() {
 
-  const [isNavbarOpen, setisNavbarOpen] = useState(false); ``
+  const [isNavbarOpen, setisNavbarOpen] = useState(false);
 
-  const handleRedirect = () => {
-    redirect("/website")
-  }
 
   return (
-    <header className='z-[100] sticky w-full h-[100px] flex items-center justify-center shadow-[0_0_13px_-3px_var(--main-color)]'>
-      <nav className='px-2 md:px-4 max-w-[1810px] w-full h-full bg-white flex items-center justify-between'>
+    <header className='navbar z-[100] fixed w-full h-[100px] bg-[var(--secondary-color)] flex items-center justify-center shadow-[0_0_13px_-3px_var(--main-color)]'>
+      <nav className='px-2 md:px-4 max-w-[1810px] w-full h-full flex items-center justify-between'>
         <div>
           <img width={150} src={Logo} alt="..." />
         </div>
@@ -344,7 +340,6 @@ export default function Navbar() {
           <ColorButton
             type={"link"}
             to={"/get-in-touch"}
-            onClickHander={handleRedirect}
             className="max-w-[14rem] self-center"
           >Get in Touch
           </ColorButton>

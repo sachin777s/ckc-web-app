@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer className='mt-5 px-2 md:px-4 mx-auto max-w-[1850px]'>
+    <footer className='-z-10 mt-5 px-2 md:px-4 mx-auto max-w-[1680px]'>
       <section style={{ backgroundColor: 'var(--main-color)' }}>
         <div className="row">
           <div className="container">
@@ -117,11 +117,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      <div className="container ms-5 mt-5 text-white fs-5 pb-5">
-        <p style={{marginLeft: '190px'}}>Terms and Conditions
-          Privacy Policy
-          © 2023 London Marketing Company - 13375416</p>
-          </div>
+        <div className="container ms-5 mt-5 text-white fs-5 pb-5">
+          <p style={{ marginLeft: '190px' }}>Terms and Conditions
+            Privacy Policy
+            © 2023 London Marketing Company - 13375416</p>
+        </div>
       </section>
     </footer>
   )
