@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BusinessMarketing() {
   return (
-        <div className="container">
+        <div className="container" name="consulting">
           <h1 className='fs-1 fw-bold ms-5 mt-5 mb-5'>Business &  marketing practices we specialise in.</h1>
           <div className="row">
             <div className="col-md-4">

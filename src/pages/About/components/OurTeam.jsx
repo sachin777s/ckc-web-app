@@ -15,7 +15,7 @@ export default function OurTeam() {
     }, [])
 
     return (
-        <section className='mt-20 w-full flex flex-col items-center'>
+        <section name="our-team" className='mt-20 w-full flex flex-col items-center'>
             <div className="w-full flex items-center justify-center">
                 <h1 className=' text-4xl md:text-6xl text-center font-semibold max-w-[42rem]'>
                     <span className='text-[var(--main-color)]'>Meet </span>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TrainedSpecialists() {
   return (
-    <div className="container">
+    <div className="container" name="management">
     <h1 className='fs-1 fw-bold ms-5 mt-5 mb-5'>Highly trained marketing specialists.</h1>
     <div className="row">
       <div className="col-md-4">
