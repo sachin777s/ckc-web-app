@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function SEO() {
   return (
-    <div className="container">
+    <div className="container" name="seo">
     <h1 className='fs-1 text-center mt-5 fw-bold'>What is Search Engine <br /> Optimisation?</h1>
     <div className="row">
       <div className="col-md-4">

@@ -38,7 +38,7 @@ export default function SEO() {
     ]
 
     return (
-        <section className='container-tailwind mt-20'>
+        <section name="seo" className='container-tailwind mt-20'>
             <div className="">
                 <h1 className='text-5xl font-semibold'>
                     Why Search Engine Optimisation is important for any company's success?

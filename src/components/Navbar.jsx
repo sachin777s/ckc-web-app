@@ -3,6 +3,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import Logo from "../assets/logo.png";
 import ColorButton from './asssets/ColorButton';
 import { NavLink, } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export default function Navbar() {
 
@@ -46,7 +47,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Broadcast
+                    <Link to='broadcast' offset={-150} duration={500}>Broadcast</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -54,7 +55,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Consulting
+                    <Link to='consulting' offset={-150} duration={500}>Consulting</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -62,7 +63,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Management
+                    <Link to='management' offset={-150} duration={500}>Management</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -70,7 +71,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Pitch Decks
+                    <Link to='picth-desk' offset={-150} duration={500}>Pitch Desk</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -78,7 +79,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    PR
+                    <Link to='pr' offset={-150} duration={500}>PR</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -86,7 +87,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    SEO
+                    <Link to='seo' offset={-150} duration={500}>SEO</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -102,7 +103,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Start-up & Scale
+                    <Link to='startupandscale' offset={-150} duration={500}>Start-up & Scale</Link>
                   </NavLink>
                 </li>
               </ul>
@@ -126,7 +127,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Development
+                    <Link to='development' offset={-150} duration={500}>Development</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -134,7 +135,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Hosting
+                    <Link to='hosting' offset={-150} duration={500}>Hosting</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -142,7 +143,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    PPC
+                    <Link to='ppc' offset={-150} duration={500}>PPC</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -150,7 +151,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    SEO
+                    <Link to='seo' offset={-150} duration={500}>SEO</Link>
                   </NavLink>
                 </li>
                 <li className="">
@@ -158,7 +159,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Content
+                    <Link to='content' offset={-150} duration={500}>Content</Link>
                   </NavLink>
                 </li>
               </ul>
@@ -307,7 +308,8 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Out Team
+                    <Link to='our-team' offset={-150} duration={500}>Our Team</Link>
+
                   </NavLink>
                 </li>
                 <li className="">
@@ -315,22 +317,14 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    Our Accolades
-                  </NavLink>
-                </li>
-                <li className="">
-                  <NavLink
-                    className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
-                    to={"#"}
-                  >
-                    Google Leading Partner
+                    <Link to='our-accolades' offset={-150} duration={500}>Our Accolades</Link>
                   </NavLink>
                 </li>
                 <li className="">
                   <NavLink
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}>
-                    Job Opportunities
+                    <Link to='job-opportunities' offset={-150} duration={500}>Job Opportunities</Link>
                   </NavLink>
                 </li>
               </ul>

@@ -17,6 +17,7 @@ import StorySharing from './StorySharing'
 import SEO from './SEO'
 import TypingEffect from './TypingEffect'
 import Contactus from '../../components/Contactus'
+import Broadcast from './Borascast'
 
 export default function Marketing() {
 
@@ -43,6 +44,7 @@ export default function Marketing() {
         <EnticeCustomers />
         <ContentWriting />
         <ContentCanWork />
+        <Broadcast />
         <StorySharing />
         <SEO />
       </section>

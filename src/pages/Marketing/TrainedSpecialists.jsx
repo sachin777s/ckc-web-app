@@ -7,9 +7,9 @@ export default function TrainedSpecialists() {
   const [isFirstOpen, setIsFirstOpen] = useState(false);
   const [isSecondOpen, setIsSecondOpen] = useState(false);
   const [isThirdOpen, setIsThirdOpen] = useState(false);
+  
   return (
-    <>
-  <section className='container-tailwind mt-20 flex items-start justify-between flex-col md:flex-row'>
+     <section className='container-tailwind mt-20 flex items-start justify-between flex-col md:flex-row'>
             <div className='w-full md:w-2/5 max-w-[28rem]'>
                 <h1 className='text-5xl font-semibold'>Highly trained marketing specialists.</h1>
             </div>
@@ -97,7 +97,5 @@ export default function TrainedSpecialists() {
                 </div>
             </div>
         </section>
-  
-  </>
   )
 }

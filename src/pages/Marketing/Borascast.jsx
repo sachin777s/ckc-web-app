@@ -1,9 +1,9 @@
 import React from 'react'
 import ColorButton from "../../components/asssets/ColorButton"
 
-export default function Borascast() {
+export default function Broadcast() {
   return (
-    <div className="container">
+    <div className="container" name="broadcast">
     <div className="row">
       <div className="col-md-6 mt-5">
         <div className='w-full overflow-hidden mt-5'>

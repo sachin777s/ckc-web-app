@@ -3,7 +3,7 @@ import ColorButton from "../../components/asssets/ColorButton"
 
 export default function WebHosting() {
     return (
-        <section className='container-tailwind mt-12 flex gap-8 md:gap-12 items-center flex-col-reverse md:flex-row'>
+        <section name="hosting" className='container-tailwind mt-12 flex gap-8 md:gap-12 items-center flex-col-reverse md:flex-row'>
             <div className="md:w-1/2 w-full">
                 <h1 className='text-4xl font-bold'>
                     Ultra-fast website hosting.
