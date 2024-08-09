@@ -20,6 +20,7 @@ export default function Navbar() {
           <div className="flex justify-center items-center flex-col lg:flex-row">
 
             <NavLink
+              onClick={() => setisNavbarOpen(false)}
               style={({ isActive }) => ({
                 color: isActive ? "var(--main-color)" : "",
               })}
@@ -32,6 +33,7 @@ export default function Navbar() {
             {/* marketing dropdown menu */}
             <div className="dropdown inline-block relative">
               <NavLink
+                onClick={() => setisNavbarOpen(false)}
                 style={({ isActive }) => ({
                   color: isActive ? "var(--main-color)" : "",
                 })}
@@ -44,6 +46,7 @@ export default function Navbar() {
               <ul className="pb-1 w-[14rem] bg-[var(--secondary-color)] dropdown-menu static lg:absolute hidden pt-1 shadow-[0_0_12px_-3px_gray] rounded-md">
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -52,6 +55,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -60,6 +64,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -68,6 +73,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -76,6 +82,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -84,6 +91,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -92,6 +100,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/marketing/social-media"}
                   >
@@ -100,6 +109,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -112,6 +122,7 @@ export default function Navbar() {
             {/* website dropdown menu */}
             <div className=" dropdown inline-block relative">
               <NavLink
+                onClick={() => setisNavbarOpen(false)}
                 style={({ isActive }) => ({
                   color: isActive ? "var(--main-color)" : "",
                 })}
@@ -124,6 +135,7 @@ export default function Navbar() {
               <ul className="pb-1 bg-[var(--secondary-color)] dropdown-menu static lg:absolute hidden pt-1 shadow-[0_0_12px_-3px_gray] rounded-md">
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -132,6 +144,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -140,6 +153,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -148,6 +162,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -156,6 +171,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -168,6 +184,7 @@ export default function Navbar() {
             {/* media dropdown menu */}
             <div className="dropdown inline-block relative">
               <NavLink
+                onClick={() => setisNavbarOpen(false)}
                 style={({ isActive }) => ({
                   color: isActive ? "var(--main-color)" : "",
                 })}
@@ -180,6 +197,7 @@ export default function Navbar() {
               <ul className="pb-1 bg-[var(--secondary-color)] dropdown-menu static lg:absolute hidden pt-1 shadow-[0_0_12px_-3px_gray] rounded-md">
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/media/drone"}
                   >
@@ -188,6 +206,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/media/photo"}
                   >
@@ -196,6 +215,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/media/video"}
                   >
@@ -204,6 +224,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/media/virtual"}
                   >
@@ -212,6 +233,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/media/3d"}
                   >
@@ -220,6 +242,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/media/products"}
                   >
@@ -232,6 +255,7 @@ export default function Navbar() {
             {/* design dropdown menu */}
             <div className="dropdown inline-block relative">
               <NavLink
+                onClick={() => setisNavbarOpen(false)}
                 style={({ isActive }) => ({
                   color: isActive ? "var(--main-color)" : "",
                 })}
@@ -244,6 +268,7 @@ export default function Navbar() {
               <ul className="pb-1 bg-[var(--secondary-color)] dropdown-menu static lg:absolute hidden pt-1 shadow-[0_0_12px_-3px_gray] rounded-md">
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/design/branding"}
                   >
@@ -252,6 +277,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/design/corporate"}
                   >
@@ -260,6 +286,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/design/logo"}
                   >
@@ -268,6 +295,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/design/print"}>
                     Print
@@ -275,6 +303,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/design/packaging"}>
                     Packaging
@@ -282,6 +311,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/design/trade"}>
                     Trade
@@ -293,6 +323,7 @@ export default function Navbar() {
             {/* About Dropdown Menu */}
             <div className="dropdown inline-block relative">
               <NavLink
+                onClick={() => setisNavbarOpen(false)}
                 style={({ isActive }) => ({
                   color: isActive ? "var(--main-color)" : "",
                 })}
@@ -305,6 +336,7 @@ export default function Navbar() {
               <ul className="pb-1 w-[14rem] bg-[var(--secondary-color)] dropdown-menu static lg:absolute hidden pt-1 shadow-[0_0_12px_-3px_gray] rounded-md">
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -314,6 +346,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
@@ -322,6 +355,7 @@ export default function Navbar() {
                 </li>
                 <li className="">
                   <NavLink
+                    onClick={() => setisNavbarOpen(false)}
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}>
                     <Link to='job-opportunities' offset={-150} duration={500}>Job Opportunities</Link>
@@ -332,6 +366,7 @@ export default function Navbar() {
           </div>
 
           <ColorButton
+            onClickHander={() => setisNavbarOpen(false)}
             type={"link"}
             to={"/get-in-touch"}
             className="max-w-[14rem] self-center"

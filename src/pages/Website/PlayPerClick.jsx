@@ -18,7 +18,7 @@ export default function PlayPerClick() {
                     Pay-Per-Click (PPC).
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Pay-per-click advertising could be the perfect solution if you’re looking for a way to increase your visibility in search engine results. We have years of experience running successful PPC campaigns on various platforms, including Google Adwords and Facebook Ads Manager. Our PPC experts know how best to allocate the budget wisely while achieving the outlined business targets.
+                    Pay-per-click (PPC) advertising can significantly boost your visibility in search engine results. With years of experience managing successful PPC campaigns across platforms like Google Ads and Facebook Ads Manager, our experts excel at strategically allocating your budget to meet your business objectives effectively. Let us help you achieve your marketing goals with precision and expertise.
                 </p>
                 <ColorButton className="mt-4">Request a free audit</ColorButton>
             </div>

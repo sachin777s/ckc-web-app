@@ -18,7 +18,7 @@ export default function Corporate() {
                     Corporate & outdoor.
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Over the years, we have exceeded client expectations many times over. We don’t like to overcomplicate designs as we know that the simplest of logos can be the best!
+                    Time and again, we’ve exceeded client expectations by embracing simplicity, knowing that the most effective logos are often the simplest.
                 </p>
                 <ColorButton className="mt-4">View our corporate range</ColorButton>
             </div>

@@ -6,10 +6,10 @@ export default function Packaging() {
         <section className='container-tailwind w-full mt-12 flex gap-8 md:gap-12 items-center justify-around flex-col-reverse md:flex-row'>
             <div className="md:w-2/5 w-full">
                 <h1 className='text-4xl font-bold'>
-                    Targeted product packaging .
+                    Precision-Driven Product Packaging
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    With a focus on creativity, our packaging designers are committed to delivering innovative and stylish solutions for every project. We care about making sure that you have an eye-catching product packaging design.
+                    Our packaging designers prioritize creativity, delivering innovative and stylish solutions for every project. We’re dedicated to ensuring your product packaging is eye-catching and memorable.
                 </p>
                 <ColorButton className="mt-4">View our packaging designs</ColorButton>
             </div>

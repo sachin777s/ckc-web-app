@@ -12,10 +12,10 @@ export default function InformationalVideo() {
         <section className='mt-20' name="development">
             <div>
                 <h1 className='text-center text-6xl font-semibold'>
-                    Informational websites
+                    Educational websites
                 </h1>
                 <p className='mt-6 text-center text-2xl font-semibold'>
-                    Powerful and professional informational website development.
+                    Powerful and professional educational website development.
                 </p>
             </div>
             <div className='flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16'>

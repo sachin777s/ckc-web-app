@@ -8,10 +8,10 @@ export default function HeroSection() {
         <section className='bg-white relative h-screen overflow-hidden flex justify-between'>
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
                 <h1 className='text-4xl md:text-6xl font-bold'>
-                    Breathtaking product packaging design.
+                    Stunning Product Packaging Design
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Impactful and rememberable corporate design targetted to communicate your company's message innovatively and effectively.
+                    Our corporate designs are crafted to make a powerful impact and leave a lasting impression, effectively and innovatively conveying your company's message.
                 </p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
                     <ColorButton>Discover Our Virtual</ColorButton>

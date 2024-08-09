@@ -31,7 +31,7 @@ export default function ProfessionalMarketing() {
 
     return (
         <section name="our-accolades" className='mt-20 px-2 py-8 flex flex-col items-center bg-[#F9EBEB]'>
-            <h1 className='max-w-[40rem] text-center text-4xl md:text-6xl font-semibold'>Our professional marketing accolades.</h1>
+            <h1 className='max-w-[40rem] text-center text-4xl md:text-6xl font-semibold'>Our Marketing Achievements and Awards</h1>
             <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
                 {
                     cards.map((card, i) =>

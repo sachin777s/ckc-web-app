@@ -18,7 +18,7 @@ export default function TradeShows() {
                     Trade shows.
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Step into the exhibition hall confidently and make your presence known with our unique, full-package trade show designs.
+                    Enter the exhibition hall with confidence and stand out with our distinctive, all-inclusive trade show designs.
                 </p>
                 <ColorButton className="mt-4">See our trade show designs</ColorButton>
             </div>

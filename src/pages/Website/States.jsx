@@ -50,7 +50,7 @@ export default function States() {
                     <span className='text-[var(--main-color)]'>+</span>
                 </span>
                 <span className="text-3xl font-semibold text-center">
-                    Number of informational websites built
+                    Number of educational websites built
                 </span>
             </div>
         </section>

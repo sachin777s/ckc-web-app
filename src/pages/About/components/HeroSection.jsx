@@ -8,10 +8,10 @@ export default function HeroSection() {
         <section className='bg-white relative h-screen overflow-hidden flex justify-between'>
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
                 <h1 className='text-4xl md:text-6xl font-bold'>
-                    London's trusted marketing company
+                    India's Premier Web Development Agency
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    With London Marketing Company as your partner, we'll provide you with only the best experts in the field who will understand your business and goals.
+                    Partnering with London Marketing Company means gaining access to top industry experts who truly understand your business and objectives, delivering the highest quality service tailored to your needs.
                 </p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
                     <ColorButton>Explore Our Marketing</ColorButton>

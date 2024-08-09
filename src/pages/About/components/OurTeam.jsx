@@ -19,7 +19,7 @@ export default function OurTeam() {
             <div className="w-full flex items-center justify-center">
                 <h1 className=' text-4xl md:text-6xl text-center font-semibold max-w-[42rem]'>
                     <span className='text-[var(--main-color)]'>Meet </span>
-                    the London Marketing Company team
+                    Our Team
                 </h1>
             </div>
             <div className="mt-16 flex max-w-[100rem] flex-wrap items-center justify-center gap-6">

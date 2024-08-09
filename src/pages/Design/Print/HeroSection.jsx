@@ -8,10 +8,10 @@ export default function HeroSection() {
         <section className='bg-white relative h-screen overflow-hidden flex justify-between'>
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
                 <h1 className='text-4xl md:text-6xl font-bold'>
-                    Print & corporate design.
+                    Print and Corporate Design Excellence
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Your brand is what sets you apart from the competition. To help enhance brand reputation, our designers are ready to provide corporate and print-related designs tailored specifically for your business and target audience.
+                    "Your brand distinguishes you from the competition. Our designers specialize in creating tailored corporate and print designs that elevate your brand reputation and resonate with your target audience.
                 </p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
                     <ColorButton>About Us</ColorButton>

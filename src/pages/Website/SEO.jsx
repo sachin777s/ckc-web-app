@@ -41,11 +41,10 @@ export default function SEO() {
         <section name="seo" className='container-tailwind mt-20'>
             <div className="">
                 <h1 className='text-5xl font-semibold'>
-                    Why Search Engine Optimisation is important for any company's success?
+                    Why Search Engine Optimization is Essential for Your Company’s Success
                 </h1>
                 <p className='mt-8 text-xl opacity-80'>
-                    London Marketing Company is an SEO specialist that provides optimisation services to help businesses grow their exposure on Google and other search engines. We do this by breaking down the goals of each campaign, ensuring they align with strategic targets for increased brand awareness. Sales success stories from past clients, who have seen over a 1000% growth in sales! The process is transparent, so you will know what's going on throughout your SEO strategy and be updated about your website's performance.
-
+                    Noida Marketing Company specializes in SEO, offering optimization services designed to enhance your visibility on Google and other search engines. We meticulously break down each campaign’s objectives, aligning them with strategic goals to boost brand awareness. Our clients have achieved remarkable results, with some experiencing over 1000% growth in sales. We ensure a transparent process, keeping you informed and updated on your SEO strategy and website performance.
                 </p>
             </div>
             <div className="mt-16 flex flex-col items-center">
