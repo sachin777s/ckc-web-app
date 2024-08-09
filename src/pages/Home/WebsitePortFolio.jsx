@@ -11,9 +11,11 @@ export default function WebsitePortFolio() {
   return (
     <section className='mt-12 mb-12 flex gap-8 md:gap-0 items-center justify-center flex-col-reverse md:flex-row scale-75 md:scale-100'>
       <div className="md:w-2/5 w-full">
-        <h1 className='text-4xl font-bold'>Supreme website design & development</h1>
-        <h3 className='mt-4 text-base font-bold'>Web Design Agency London</h3>
-        <p className='mt-4 text-xl opacity-80'>Your website is the digital face of your business online. Invest in empowering and encapsulating website design and full-stack development.</p>
+        <h1 className='text-4xl font-bold'>Fantastic website design & development</h1>
+        <h3 className='mt-4 text-base font-bold'>Web Developement Agency Noida</h3>
+        <p className='mt-4 text-xl opacity-80'>Your website is a key representation of your business in the digital world. Elevate your online impact with our cutting-edge web design and development services. We offer comprehensive solutions that blend creative design with robust technology, ensuring your site is both visually captivating and functionally flawless. Partner with us to transform your digital footprint into a powerful asset that drives success and reflects your brand's essence.
+
+</p>
         <ColorButton className="mt-4">Check Our Website Portfolio</ColorButton>
       </div>
       <div className="md:w-2/5 w-full flex flex-col items-center">
@@ -35,7 +37,7 @@ export default function WebsitePortFolio() {
           ></video>
         </div>
         <span className='font-bold'>
-          Hover over our responsive screens to see what our websites look like
+          Hover over to see which types of Web Apps we build.
         </span>
       </div>
     </section>

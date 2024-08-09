@@ -44,7 +44,6 @@ export default function Photo() {
           </div>
         </div>
       </section>
-      
       <div className="container">
         <div className="row">
           <div className="col-md-6 mt-5">
