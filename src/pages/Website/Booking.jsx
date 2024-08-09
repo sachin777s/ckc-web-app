@@ -12,10 +12,10 @@ export default function Booking() {
         <section className='mt-20'>
             <div className=''>
                 <h1 className='text-center text-6xl font-semibold'>
-                Booking & delivery system websites.
+                Websites for Booking & Delivery Systems.
                 </h1>
                 <p className='mt-6 text-center text-2xl font-semibold'>
-                Designed for restaurants, hotels and other businesses that have events or experiences at their core.
+                Tailored for restaurants, hotels, and businesses centered around events and experiences.
                 </p>
             </div>
             <div className='flex items-center flex-col md:flex-row justify-center gap-8 md:gap-16'>

@@ -17,7 +17,7 @@ export default function States() {
                     <span className='text-[var(--main-color)]'>+</span>
                 </span>
                 <span className="text-3xl font-semibold text-center">
-                    UK cities we're based in
+                    India cities we're based in
                 </span>
 
             </div>

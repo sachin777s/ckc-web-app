@@ -6,10 +6,10 @@ export default function WebHosting() {
         <section name="hosting" className='container-tailwind mt-12 flex gap-8 md:gap-12 items-center flex-col-reverse md:flex-row'>
             <div className="md:w-1/2 w-full">
                 <h1 className='text-4xl font-bold'>
-                    Ultra-fast website hosting.
+                    Lightning-Speed Website Hosting
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    A business is dependent on the internet for marketing, new customer acquisition and retention. That's why you need a dependable web hosting company like ours! Our email servers are fast enough to send out emails every day without slowing down your site or negatively impacting its loading speed; we make sure everything works securely with daily backups of all databases so there'll be no data loss in case something goes wrong - which it won't because our team takes care both ways (security and performance).
+                    In today's digital age, businesses rely heavily on the internet for marketing, customer acquisition, and retention. That's why you need a reliable web hosting partner like us! Our high-speed email servers ensure daily communications run smoothly without affecting your site’s performance. We prioritize security with daily backups of all databases, so you never have to worry about data loss. Our dedicated team manages both security and performance, ensuring everything runs seamlessly.
                 </p>
                 <ColorButton className="mt-4">Upgrade today</ColorButton>
             </div>

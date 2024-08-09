@@ -6,10 +6,10 @@ export default function PrintDesign() {
         <section className='container-tailwind mt-12 flex items-center justify-between flex-col-reverse md:flex-row'>
             <div className="w-full md:w-1/2">
                 <h1 className='text-4xl font-bold'>
-                    Masterly executed print design
+                    Expertly Crafted Print Design
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Our creative team is made up of designers with years' worth of experience in design, brochures and the Annual Report industry. We create compelling visuals in our reports and brochures that make your company stand out and deliver your content in an elegant, sophisticated and engaging manner.
+                    Our talented design team brings years of experience in creating standout brochures and annual reports. We craft visually compelling materials that present your content with elegance and sophistication, ensuring your company makes a memorable impression.
                 </p>
                 <ColorButton className="mt-4">Explore our print design</ColorButton>
             </div>

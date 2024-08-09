@@ -8,42 +8,42 @@ export default function SixWays() {
         {
             imgPath: "/image/logo-design.png",
             title: "Logo Creation",
-            description: "Your logo is your brand's signature. It has the power to distinguish you within an industry and create a memorable first impression for clients and customers alike! Our team of designers creates dynamic logos, ensuring people remember who you are.",
+            description: "Your logo is the signature of your brand—capable of setting you apart in the industry and leaving a lasting first impression. Our designers craft dynamic logos that ensure your brand is unforgettable.",
             redirectRoute: "/design/logo",
             redirectLavel: "See Our Logo Design"
         },
         {
             imgPath: "/image/drone.png",
             title: "Drone Services",
-            description: "Your brand is our inspiration. With our drone photography and videography, we bring the best of your brand to life. We capture beautiful aerial footage that highlights all aspects for you business in order show it off at its finest!",
+            description: "Your brand fuels our creativity. With our drone photography and videography, we showcase your brand from breathtaking perspectives. We capture stunning aerial footage that highlights every detail, presenting your business in its best light.",
             redirectRoute: "/media/drone",
             redirectLavel: "See Our Drone Promotion"
         },
         {
             imgPath: "/image/photography.png",
             title: "Professional photography",
-            description: "Our state-of-the-art technology showcases your business through professional, ultra-HD photography to your audience.",
+            description: "Using cutting-edge technology, we present your business with high-definition, professional photography that captivates your audience.",
             redirectRoute: "/media/photo",
             redirectLavel: "See our photography portfolio"
         },
         {
             imgPath: "/image/seo.png",
             title: "SEO",
-            description: "As London’s leading Google partner, we hold the greatest knowledge when it comes to optimizing your website against search engine platforms to be fully compliant and utilized throughout your site.",
+            description: "As a top Google partner in Noida, we possess unparalleled expertise in optimizing your website for search engines, ensuring full compliance and effective utilization across your site.",
             redirectRoute: "#",
             redirectLavel: "See our SEO"
         },
         {
             imgPath: "/image/video.png",
             title: "Promotional Videos",
-            description: "With story and mood boards, our team of experts create engaging videos that will enthral your audience across all of your chosen platforms.",
+            description: "Through compelling storyboards and mood boards, our expert team produces engaging videos that captivate your audience across all your selected platforms.",
             redirectRoute: "/media/video",
             redirectLavel: "See our videos"
         },
         {
             imgPath: "/image/virtual-reality.png",
             title: "Virtual Concepts",
-            description: "Our knowledge and expertise in Google 360° imagery will make you a leading business in your local area.            ",
+            description: "Leverage our expertise in Google 360° imagery to position your business as a local leader, providing immersive and engaging virtual experiences.",
             redirectRoute: "/media/virtual",
             redirectLavel: "See our virtual concepts"
         }

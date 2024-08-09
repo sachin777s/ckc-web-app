@@ -7,8 +7,8 @@ export default function HeroSection() {
     return (
         <section className='bg-white relative h-screen overflow-hidden flex justify-between'>
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
-                <h1 className='text-6xl font-bold'>Inspiring branded designs .</h1>
-                <p className='mt-4 text-xl opacity-80'>Your brand is your reputation, and excellent brand experiences can transform your company, attracting and engaging customers in meaningful new ways while maximising brand performance and market demand.</p>
+                <h1 className='text-6xl font-bold'>Captivating Branded Designs</h1>
+                <p className='mt-4 text-xl opacity-80'>Your brand shapes your reputation. Outstanding brand experiences can transform your company, drawing in and engaging customers in powerful ways while enhancing brand performance and driving market demand.</p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
                     <ColorButton>Tour our media services</ColorButton>
                     <TransButton>Get in touch</TransButton>

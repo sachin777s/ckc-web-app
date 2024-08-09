@@ -18,8 +18,8 @@ export default function VideoMarketing() {
                 />
             </div>
             <div className="w-full md:w-1/2">
-                <h1 className='text-4xl font-bold'>Ultra-realistic 3D product modelling .</h1>
-                <p className='mt-4 text-xl opacity-80'>Our team of 3D design specialists have a wealth of experience in 3-dimensional modelling, rendering and creation. We can harness your breathtaking ideas and concepts and bring them into reality!</p>
+                <h1 className='text-4xl font-bold'>Hyper-Realistic 3D Product Modeling</h1>
+                <p className='mt-4 text-xl opacity-80'>Our team of 3D design experts excels in modeling, rendering, and creating stunning three-dimensional visuals. We turn your impressive ideas and concepts into vivid, tangible realities.</p>
                 <ColorButton className="mt-4">Explore our 3D product modelling</ColorButton>
             </div>
         </section>

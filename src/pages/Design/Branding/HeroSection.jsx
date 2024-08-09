@@ -8,10 +8,10 @@ export default function HeroSection() {
         <section className='bg-white relative h-screen overflow-hidden flex justify-between'>
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
                 <h1 className='text-4xl md:text-6xl font-bold'>
-                    Inspiring branding & promotions.
+                    Elevating Your Brand with Inspiring Promotions
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Create a unique, memorable and defining brand that excites in the modern hyper-competitive marketplace.
+                    Develop a distinctive, memorable brand that stands out and captivates in today’s fiercely competitive marketplace.
                 </p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
                     <ColorButton>View Logo Design</ColorButton>

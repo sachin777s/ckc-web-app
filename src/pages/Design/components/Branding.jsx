@@ -9,11 +9,10 @@ export default function Branding() {
             </div>
             <div className="w-full md:w-1/2 pt-0">
                 <h1 className='text-4xl font-bold'>
-                    Encapsulating branding & delivery.
+                    Seamless Branding and Execution
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    We know that a brand is more than just what you sell, it's how customers perceive your business, it's your brand personality. Our branding and design specialists ensure your brand's perception is aligned with your most lucrative target markets.
-                </p>
+                    Your brand is more than just what you offer; it’s the essence of how customers perceive your business—your brand’s personality. Our branding and design experts meticulously craft and refine your brand’s image to resonate powerfully with your most profitable target audiences.                </p>
                 <ColorButton className="mt-4">
                     Explore our professional branding
                 </ColorButton>

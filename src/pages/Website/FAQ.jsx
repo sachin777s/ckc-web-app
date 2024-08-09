@@ -10,8 +10,8 @@ export default function FAQ() {
     return (
         <section className='container-tailwind mt-20 flex items-start justify-between flex-col md:flex-row'>
             <div className='w-full md:w-2/5 max-w-[28rem]'>
-                <h1 className='text-5xl font-semibold'>How your content can work for you.</h1>
-                <p className='mt-12 text-xl opacity-80'>The London Marketing Company’s content writing experts can produce professional-grade copy that captures and articulates what your company stands for. Get in touch with us today to see how we can help you.</p>
+                <h1 className='text-5xl font-semibold'>How Your Content Can Drive Results</h1>
+                <p className='mt-12 text-xl opacity-80'>At The London Marketing Company, our content writing experts create high-quality copy that clearly conveys your company's values and message. Contact us today to discover how we can enhance your brand’s voice and impact.</p>
             </div>
             <div className="w-full md:w-3/5 cursor-default">
                 <div className="py-4 border-b-2 border-gray-200">
@@ -19,7 +19,7 @@ export default function FAQ() {
                         onClick={() => setIsFirstOpen(!isFirstOpen)}
                         className="max-w-[46rem] flex items-center justify-between"
                     >
-                        <span className='text-3xl'>Strategic content campaigns</span>
+                        <span className='text-3xl'>Targeted Content Campaigns</span>
                         {isFirstOpen
                             ? <FaMinusCircle className='scale-150' />
                             : <FaPlusCircle className='scale-150' />
@@ -28,18 +28,15 @@ export default function FAQ() {
                     <ul
                         className={`mt-4 ${isFirstOpen ? "block" : "hidden"} font-xl  text-xl opacity-80`}
                     >
-                        <li>
-                            Sharp, smart, and to-the-point content writing is key to effectively communicating your brand and its values. Content writing ranges from everything to the architecture of a website (such as the copy you’re reading now) to writing that outlines services, values, areas of note, and thought leadership.
+                        <li className="mt-2">
+                            Effective brand communication hinges on sharp, intelligent, and concise content writing. From website architecture (like the copy you're reading) to detailing services, values, and thought leadership, our content writing covers it all, ensuring clear and impactful messaging.
                         </li>
-                        <li>
-                            Whether you need a series of blogs on your website or a full-scale overhaul of written materials and structures, the marketing experts here at the London Marketing Company are able to build a strategic content campaign tailored specifically to the objectives that you’re looking to achieve.
-                        </li>
-                        <li>
-                            Good content writing isn’t just a luxury, it’s an essential part of establishing a coherent and distinctive brand image.
-                        </li>
-                        <li>
-                            We’ll work with your business to construct a bespoke content campaign for your business, that incorporates your brand language, key selling points and other content elements that you wish to include. Get in touch to find out more about how we can help to maximise your reach and vision.
-                        </li>
+                        <li className="mt-2">
+                            Whether you require a series of blog posts or a comprehensive revamp of your written content and structure, the experts at The London Marketing Company can create a tailored content strategy that aligns with your specific goals and objectives.                        </li>
+                        <li className="mt-2">
+                            Great content writing isn't just an added benefit—it's a crucial element in building a cohesive and unique brand image.                        </li>
+                        <li className="mt-2">
+                            We’ll collaborate with your business to create a customized content campaign that integrates your brand language, key selling points, and any other essential elements. Contact us to learn how we can help amplify your reach and achieve your vision.                        </li>
                     </ul>
                 </div>
                 <div className="py-4 border-b-2 border-gray-200">
@@ -48,24 +45,24 @@ export default function FAQ() {
                         className="max-w-[46rem] flex items-center justify-between"
 
                     >
-                        <span className="text-3xl ">SEO & SEM: supercharging your online presence</span>
+                        <span className="text-3xl ">SEO & SEM: Boosting Your Online Visibility</span>
                         {isSecondOpen
                             ? <FaMinusCircle className='scale-150' />
                             : <FaPlusCircle className='scale-150' />
                         }
                     </div>
                     <ul className={`mt-4 ${isSecondOpen ? "block" : "hidden"} text-xl opacity-80`}>
-                        <li>
-                            Search engine optimisation (SEO) and search engine marketing (SEM) are ubiquitous terms in content marketing that you might have heard of. But what do they actually mean?
+                        <li className="mt-2">
+                            SEO (Search Engine Optimization) and SEM (Search Engine Marketing) are key concepts in content marketing that you’ve likely encountered. But what do they really involve?
                         </li>
-                        <li>
-                            SEO means tailoring web content and web pages to appear higher in search rankings, and SEM means using paid strategies to increase visibility on these search engines. Both are essential tools in the arsenal of any content marketing strategy.
+                        <li className="mt-2">
+                            SEO (Search Engine Optimization) involves optimizing web content and pages to rank higher in search results, while SEM (Search Engine Marketing) uses paid tactics to boost visibility on search engines. Both are crucial components of a successful content marketing strategy.
                         </li>
-                        <li>
-                            The marketing experts at LondonMarketing Company will help to supercharge your businesses’ selling points. We’ll help your business to target precise, fixed keywords that enable your website to stand out from competitors when on search engines.
+                        <li className="mt-2">
+                            At London Marketing Company, our experts will enhance your business’s key selling points by targeting specific, high-impact keywords. This strategic approach will ensure your website stands out from the competition in search engine results.
                         </li>
-                        <li>
-                            This will allow you to address your existing audience and while targeting potential leads using cutting-edge search engine tools and expertise. It’s a fundamental part of solid business development and growing your reach online. Get in touch to see how we might be able to help boost your search engine standing.
+                        <li className="mt-2">
+                            By leveraging advanced search engine tools and expertise, we’ll help you engage your current audience while attracting new leads. This approach is essential for robust business development and expanding your online reach. Contact us to discover how we can enhance your search engine visibility.
                         </li>
                     </ul>
                 </div>
@@ -74,25 +71,21 @@ export default function FAQ() {
                         onClick={() => setIsThirdOpen(!isThirdOpen)}
                         className="max-w-[46rem] flex items-center justify-between"
                     >
-                        <span className='text-3xl '>Delivering value beyond search ranking</span>
+                        <span className='text-3xl '>Providing Value Beyond Search Rankings</span>
                         {isThirdOpen
                             ? <FaMinusCircle className='scale-150' />
                             : <FaPlusCircle className='scale-150' />
                         }
                     </div>
                     <ul className={`mt-4 ${isThirdOpen ? "block" : "hidden"} text-xl opacity-80`}>
-                        <li>
-                            Our SEO and SEM expertise will optimise the positioning of your company’s ranking and
-                            standing on search engine platforms. But this is only half the story of a successful online brand proposition: the difference between good and bad writing is easy to see but difficult to master.
+                        <li className="mt-2">
+                            Our SEO and SEM expertise will elevate your company's search engine rankings and visibility. However, achieving a standout online brand goes beyond just ranking well: mastering the art of compelling writing can set you apart and make a significant difference in your online presence.
                         </li>
-                        <li>
-                            The content experts at the London Marketing Company have worked with a wide range of
-                            companies across a variety of industries. We’ll leverage this experience and expertise across all aspects of your online business proposition, crafting copy that articulates your vision in a
-                            succinct, lively, and sharp way.
+                        <li className="mt-2">
+                            At London Marketing Company, our content experts bring extensive experience from working with diverse industries. We’ll apply this expertise to every facet of your online presence, creating compelling copy that vividly and concisely communicates your vision.
                         </li>
-                        <li>
-                            Our writers have worked for some of the UK’s leading titles and will bring a combination of
-                            rigour and quality, honed by content writing at the very highest levels. Get in touch to see how we can bring your brand to life.
+                        <li className="mt-2">
+                            Our writers, with experience from some of the UK’s top publications, bring unmatched rigor and quality to your content. Contact us to discover how we can elevate your brand and bring your vision to life.
                         </li>
                     </ul>
                 </div>

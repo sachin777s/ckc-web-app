@@ -15,10 +15,10 @@ export default function Jobs() {
             </div>
             <div className="md:w-2/6 w-full">
                 <h1 className='text-4xl font-bold'>
-                Committed, determined & pivotal.
+                    Dedicated, Driven, and Essential
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                We aren't stopping at London. We are dedicated to becoming the South of England’s leading marketing company, offering a complete success solution to clients all over the country. Contact us today to learn more about our job opportunities.
+                    We’re not just focused on London; our goal is to become the leading marketing agency across the South of England, providing comprehensive success solutions nationwide. Reach out today to explore our opportunities and see how we can help you achieve your goals
                 </p>
                 <ColorButton className="mt-4">Contact for job opportunities</ColorButton>
             </div>

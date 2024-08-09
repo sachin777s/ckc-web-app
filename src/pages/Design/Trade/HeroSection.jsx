@@ -8,10 +8,10 @@ export default function HeroSection() {
         <section className='bg-white relative h-screen overflow-hidden flex justify-between'>
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
                 <h1 className='text-4xl md:text-6xl font-bold'>
-                    Captivating trade show design.
+                    Eye-Catching Trade Show Design
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Powerful, versatile, full-specification trade show design packages for all industries and commercial occasions.
+                    Comprehensive and adaptable trade show design packages, tailored for every industry and commercial event, delivering powerful and versatile solutions.
                 </p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
                     <ColorButton>Discover Media</ColorButton>
