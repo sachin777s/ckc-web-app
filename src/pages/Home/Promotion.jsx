@@ -14,9 +14,9 @@ export default function Promotion() {
         </div>
       </div>
       <div className="md:w-1/2 w-full">
-        <h1 className='text-4xl font-bold'>Powerful and meaningful media promotions.</h1>
-        <h3 className='mt-4 text-base font-bold'>Web Design Agency London</h3>
-        <p className='mt-4 text-xl opacity-80'>Your website is the digital face of your business online. Invest in empowering and encapsulating website design and full-stack development.</p>
+        <h1 className='text-4xl font-bold'>Impactful and Purposeful Media Promotion</h1>
+        <h3 className='mt-4 text-base font-bold'>Web Design Agency Noida</h3>
+        <p className='mt-4 text-xl opacity-80'>Your online presence starts with your website. Invest in exceptional design and thorough full-stack development to truly represent your business.</p>
         <ColorButton className="mt-4">Check Our Website Portfolio</ColorButton>
       </div>
     </section>

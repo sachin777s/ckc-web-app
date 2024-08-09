@@ -7,8 +7,8 @@ export default function EnticeCustomers() {
           <div className="row">
             <div className="col-md-6 mt-5">
               <svg xmlns="http://www.w3.org/2000/svg" width="73" height="64" viewBox="0 0 73 64" fill="none" className='mt-5 ms-5'><path d="M32.3046 64V31.3766H18.4598C19.2988 19.7403 23.9138 16.2078 31.4655 12.8831L29.9971 0C12.1667 3.11688 0 14.5455 0 39.2727V64H32.3046ZM73 64V31.3766H59.3649C59.9942 19.7403 64.6092 16.2078 72.1609 12.8831L70.6925 0C52.8621 3.11688 40.6954 14.5455 40.6954 39.2727V64H73Z" fill="#3D89CA"></path></svg>
-              <h1 className='fs-1 ms-5 mt-3'>Entice customers and clients with targeted email campaigns.</h1>
-              <p className='mt-4 fs-4 mx-5'>We are experts at crafting captivating emails that will make your inboxes overflow with action. Our research skills and creative talent generate real results for our clients. We use strategic methods to create an R.O.I and decipher data so you can confidently grow your business!</p>
+              <h1 className='fs-1 ms-5 mt-3'>Engage Clients with Targeted Email Marketing.</h1>
+              <p className='mt-4 fs-4 mx-5'>Our expertise lies in crafting compelling email campaigns that drive engagement and results. With our research-driven approach and creative flair, we generate impactful results for our clients. By employing strategic methods to enhance ROI and analyzing data, we help you grow your business with confidence!</p>
               <ColorButton className="fs-4 mt-5 mb-5 ms-5 rounded-pill ">Contact us today</ColorButton>
               <div>
               </div>

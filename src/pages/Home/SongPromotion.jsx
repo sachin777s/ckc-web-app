@@ -7,8 +7,8 @@ export default function SongPromotion() {
             <div className='h-full w-full backdrop-brightness-50 flex items-center'>
                 <span></span>
                 <div className='ml-12 w-full md:w-1/3'>
-                    <h1 className='text-6xl font-bold text-[var(--secondary-color)]'>Galvanising video promotions..</h1>
-                    <p className='mt-12 text-xl text-[var(--secondary-color)] opacity-80'>A brand is unique, and so is the story. We plan your videography production to reflect the true brand ethos with cinematic high-class production videos, encapsulating an entirely visually engaging branded storytelling.</p>
+                    <h1 className='text-6xl font-bold text-[var(--secondary-color)]'>Energizing Video Campaigns..</h1>
+                    <p className='mt-12 text-xl text-[var(--secondary-color)] opacity-80'>Each brand has a distinct story to tell. We craft your videography to embody your brand’s core values through high-end, cinematic production, delivering visually stunning and engaging brand narratives.</p>
                     <ColorButton className="mt-12">View Our Videos</ColorButton>
                 </div>
             </div>

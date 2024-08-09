@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from "../../assets/videos/world.mp4";
+import Video from "../../assets/videos/herosection.mp4";
 
 export default function HeroSection() {
     return (
@@ -11,7 +11,7 @@ export default function HeroSection() {
                 autoPlay
                 loop
                 muted
-                className="absolute object-cover z-10 h-full w-screen max-w-none brightness-75"
+                className="absolute object-cover z-10 h-full w-screen max-w-none brightness-50"
             >
                 <source src={Video} type="video/mp4" />
                 {/* Your browser does not support the video tag. */}
