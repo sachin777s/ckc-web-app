@@ -16,7 +16,7 @@ export default function LogoDesign() {
                 <div className='w-full h-full overflow-hidden rounded-md'>
                     <img
                         className="h-full max-h-[44rem]"
-                        src="/image/PHOTO-2022-08-13-12-17-23.webp"
+                        src="/image/logo-designer-working-computer-desktop.jpg"
                         alt=".."
                     />
                 </div>

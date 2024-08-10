@@ -8,7 +8,7 @@ export default function Corporate() {
                 <div className='w-full h-full overflow-hidden rounded-md'>
                     <img
                         className="w-full md:w-11/12 h-full max-h-[44rem]"
-                        src="/image/logo-1.webp"
+                        src="/image/business-people-meeting-looking-presentation.jpg"
                         alt=".."
                     />
                 </div>
