@@ -8,7 +8,7 @@ export default function GrowthPartner() {
         <div className='w-full h-full overflow-hidden rounded-md'>
           <img
             className='w-full h-full transition-all duration-500 hover:scale-125'
-            src="/image/london.jpeg"
+            src="/image/technology-6701406_1920.jpg"
             alt=".."
           />
         </div>

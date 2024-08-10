@@ -23,7 +23,7 @@ export default function HeroSection() {
                 webkitClipPath: "ellipse(60% 90% at 70% 0%)"
             }}
                 className='opacity-20 xl:opacity-100 w-full xl:w-3/4 2xl:w-2/3 xl:h-[90%] 2xl:h-full absolute right-0 top-0'
-                src="/image/Vertex-Display-Stand-scaled.webp"
+                src="/image/trade-show.jpg"
                 alt=".."
             />
             <div

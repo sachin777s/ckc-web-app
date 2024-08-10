@@ -8,7 +8,7 @@ export default function Promotion() {
         <div className='w-full overflow-hidden rounded-md'>
           <img
             className='w-full h-full transition-all duration-500 hover:scale-125'
-            src="/image/car.webp"
+            src="/image/social-3408791_640.webp"
             alt=".."
           />
         </div>
@@ -22,3 +22,4 @@ export default function Promotion() {
     </section>
   )
 }
+ 

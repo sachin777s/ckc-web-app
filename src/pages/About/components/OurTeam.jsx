@@ -29,7 +29,7 @@ export default function OurTeam() {
                             key={i}
                             className='bg-[var(--secondary-color)] py-6 w-[20rem] flex flex-col items-center border-1 rounded-md'>
                             <img
-                                className='w-[14rem] rounded-[100%]'
+                                className='w-[14rem] rounded-[100%] saturate-0 contrast-100'
                                 src={member.imageUrl}
                                 alt="..."
                             />
@@ -39,15 +39,6 @@ export default function OurTeam() {
                             <span className='mt-2 text-xl opacity-80'>
                                 {member.role}
                             </span>
-                            <NavLink
-                                className="group mt-8 flex items-center gap-1"
-                                to={`/about/team-member/${member.id}`}
-                            >
-                                Read More
-                                <BsArrowRight
-                                    className='transition-all duration-200 group-hover:translate-x-2'
-                                />
-                            </NavLink>
                         </div>
                     )
                 }
