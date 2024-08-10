@@ -41,10 +41,10 @@ export default function SEO() {
         <section name="seo" className='container-tailwind mt-20'>
             <div className="">
                 <h1 className='text-5xl font-semibold'>
-                    Why Search Engine Optimization is Essential for Your Company’s Success
+                Why SEO is Crucial for Your Company’s Success
                 </h1>
                 <p className='mt-8 text-xl opacity-80'>
-                    Noida Marketing Company specializes in SEO, offering optimization services designed to enhance your visibility on Google and other search engines. We meticulously break down each campaign’s objectives, aligning them with strategic goals to boost brand awareness. Our clients have achieved remarkable results, with some experiencing over 1000% growth in sales. We ensure a transparent process, keeping you informed and updated on your SEO strategy and website performance.
+                At Noida Marketing Company, we excel in SEO, providing tailored optimization services that elevate your visibility on Google and other search engines. We carefully define and align each campaign with your strategic goals to amplify brand awareness and drive results. Our clients have seen extraordinary outcomes, with some experiencing over 1000% growth in sales. We maintain a transparent approach, keeping you informed and updated on your SEO strategy and website performance every step of the way.
                 </p>
             </div>
             <div className="mt-16 flex flex-col items-center">

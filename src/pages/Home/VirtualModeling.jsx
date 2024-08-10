@@ -18,8 +18,8 @@ export default function VirtualModeling() {
                 />
             </div>
             <div className="w-full md:w-1/2">
-                <h1 className='text-4xl font-bold'>Exceptional 3D Virtual Creations</h1>
-                <p className='mt-4 text-xl opacity-80'>Our 3D design services transform your concepts from virtual ideas into tangible realities. With advanced 3D product modeling and rendering, you can visualize your design in detail before committing resources to physical production. This allows you to refine and perfect your product with confidence, ensuring an efficient and cost-effective development process.</p>
+                <h1 className='text-4xl font-bold'>Stunning 3D Virtual Creations</h1>
+                <p className='mt-4 text-xl opacity-80'>Turn your ideas into breathtaking realities with our cutting-edge 3D design services. Our advanced 3D modeling and rendering bring your concepts to life, offering a detailed preview before you invest in physical production. Refine and perfect your designs with confidence, streamlining your development process while keeping costs in check.</p>
                 <ColorButton className="mt-4">View Our Vertial Modeling</ColorButton>
             </div>
         </section>

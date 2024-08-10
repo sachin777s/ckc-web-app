@@ -13,10 +13,10 @@ export default function Responsive() {
             <div className="w-full lg:w-2/5 pr-0 md:pr-48 flex flex-col">
                 <h1 className='text-4xl md:text-5xl font-semibold'>Seamlessly Responsive Websites for Every Device.</h1>
                 <p className='mt-8 text-xl opacity-80'>
-                    A fully responsive website is crucial for reaching customers on any device—desktop, tablet, or mobile. Our web experts will craft a high-performance, sleek, and stylish site that delivers a seamless experience and leaves a lasting impression, no matter where it’s viewed.
+                In today’s multi-device world, a fully responsive website is essential for connecting with your audience across desktops, tablets, and mobiles. Our web experts create high-performance, elegant sites that ensure a flawless experience and make a memorable impact, regardless of the device used.
                 </p>
                 <p className='mt-6 font-bold'>
-                    Keywords: London web design, web design agency in London, web design company London, website design and development London, London website design experts.
+                    Keywords: India web design, web design agency in India, web design company India, website design and development India, India website design experts.
                 </p>
                 <ColorButton className="mt-6 self-center" >Enquire Now</ColorButton>
                 <div className=''></div>

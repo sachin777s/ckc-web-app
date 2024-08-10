@@ -5,8 +5,8 @@ export default function VirtualConcept() {
     return (
         <section className='container-tailwind mt-16 flex gap-8 md:gap-12 flex-col md:flex-row items-center justify-center'>
             <div className="w-full md:w-2/5">
-                <h1 className='text-4xl font-bold'>Fully immersive 3D & 360° virtual concepts.</h1>
-                <p className='mt-4 text-xl opacity-80'>If you want to increase visitor engagement and promote your bespoke offering, then London Marketing Company’s 3D virtual tours are a unique marketing tool.</p>
+                <h1 className='text-4xl font-bold'>Fully Immersive 3D & 360° Virtual Experiences</h1>
+                <p className='mt-4 text-xl opacity-80'>Elevate visitor engagement and showcase your unique offerings with London Marketing Company’s cutting-edge 3D and 360° virtual tours. Our immersive virtual concepts transform your space into an engaging, interactive journey, setting your brand apart with a standout marketing tool.</p>
                 <ColorButton className="mt-4">View Our Vertial Modeling</ColorButton>
             </div>
             <div className="w-full md:w-1/2 flex items-center justify-center">

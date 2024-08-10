@@ -22,13 +22,13 @@ export default function Marketing() {
 
   return (
     <>
-      <section style={{ backgroundImage: 'url(/image/bulding.jpg)', backgroundSize: 'cover', paddingTop: '100px', paddingBottom: "100px", position: "relative" }}>
+      <section style={{ backgroundImage: 'url(/image/cloud-technology.jpg)', backgroundSize: 'cover', paddingTop: '100px', paddingBottom: "100px", position: "relative" }}>
         <HeroSection />
 
         <div onClick={() => window.scrollBy(0, 600)}
           className='absolute bottom-20 left-1/2 text-center flex flex-col'>
-          <span className='text-danger'>Scroll Down</span>
-          <span className='mt-4 self-center text-danger fs-3'><IoIosArrowDown /></span>
+          <span className='text-white'>Scroll Down</span>
+          <span className='mt-4 self-center text-white fs-3'><IoIosArrowDown /></span>
         </div>
 
       </section>

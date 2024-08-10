@@ -6,12 +6,12 @@ import { IoIosArrowDown } from "react-icons/io"
 export default function Drone() {
   return (
     <>
-      <section style={{ backgroundImage: 'url(/image/car-eice-rane.jpg)', backgroundSize: 'cover', paddingTop: '250px' }}>
+      <section style={{ backgroundImage: 'url(/image/person-using-futuristic-drone.jpg)', backgroundSize: 'cover', paddingBottom: '200px' }}>
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
-              <h1 className='fs-1 mt-5 ms-5 fw-bold text-white'>Stunning Drone <br/> Promotions</h1>
-              <p className='fs-4 ms-5 mt-4 text-white'>Give your customers a fresh perspective on their experience with your company through captivating aerial imagery and films. Our drone promotions offer a dynamic and engaging view that brings.</p>
+              <h1 className='fs-1 mt-5 ms-5 fw-bold'>Stunning Drone <br/> Promotions</h1>
+              <p className='fs-4 ms-5 mt-4'>Give your customers a fresh perspective on their experience with your company through captivating aerial imagery and films. Our drone promotions offer a dynamic and engaging view that brings.</p>
               <ColorButton className="fs-4 mt-5 mb-5 ms-5 rounded-pill ">View our video portfolio</ColorButton>
             </div>
             <div className="col-md-6">
@@ -21,8 +21,8 @@ export default function Drone() {
 
         <div onClick={() => window.scrollBy(0, 600)}
           className='absolute -bottom-10 left-1/2 text-center flex flex-col'>
-          <span className='text-warning'>Scroll Down</span>
-          <span className='mt-4 self-center fs-3 text-warning'><IoIosArrowDown /></span>
+          <span className='text-white'>Scroll Down</span>
+          <span className='mt-4 self-center fs-3 text-white'><IoIosArrowDown /></span>
         </div>
       </section>
       <section>
@@ -48,12 +48,12 @@ export default function Drone() {
           <div className="row">
             <div className="col-md-6 mt-5">
               <div className='w-full overflow-hidden'>
-                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/mumbai-city.jpg" alt=".." />
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/mountain-peakai.jpg" alt=".." />
               </div>
             </div>
             <div className="col-md-6 mt-5">
               <div className='w-full overflow-hidden'>
-                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/beautiful.jpg" alt=".." />
+                <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/drone5447.jpg" alt=".." />
               </div>
             </div>
           </div>

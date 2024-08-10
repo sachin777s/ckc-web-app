@@ -11,8 +11,8 @@ export default function ContentCanWork() {
     <>
      <section className='container-tailwind mt-20 flex items-start justify-between flex-col md:flex-row'>
             <div className='w-full md:w-2/5 max-w-[28rem]'>
-                <h1 className='text-5xl font-semibold'>How your content can work for you.</h1>
-                <p className='mt-12 text-xl opacity-80'>At The Noida Marketing Company, our content writing specialists craft professional-grade copy that effectively conveys your company's values and brand identity. Contact us today to discover how our expertise can elevate your messaging and support your business goals..</p>
+                <h1 className='text-5xl font-semibold'>Harness the Power of Exceptional Content.</h1>
+                <p className='mt-12 text-xl opacity-80'>At The Noida Marketing Company, our expert content writers create high-impact copy that perfectly captures your company’s values and brand identity. Connect with us today to see how our professional content can elevate your messaging and drive your business objectives forward.</p>
             </div>
             <div className="w-full md:w-3/5 cursor-default">
                 <div className="py-4 border-b-2 border-gray-200">

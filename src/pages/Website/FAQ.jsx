@@ -11,7 +11,7 @@ export default function FAQ() {
         <section className='container-tailwind mt-20 flex items-start justify-between flex-col md:flex-row'>
             <div className='w-full md:w-2/5 max-w-[28rem]'>
                 <h1 className='text-5xl font-semibold'>How Your Content Can Drive Results</h1>
-                <p className='mt-12 text-xl opacity-80'>At The London Marketing Company, our content writing experts create high-quality copy that clearly conveys your company's values and message. Contact us today to discover how we can enhance your brand’s voice and impact.</p>
+                <p className='mt-12 text-xl opacity-80'>At The CKC Marketing Company, our content writing experts craft high-quality copy that effectively communicates your company’s values and message. Connect with us today to see how we can amplify your brand’s voice and make a significant impact.</p>
             </div>
             <div className="w-full md:w-3/5 cursor-default">
                 <div className="py-4 border-b-2 border-gray-200">

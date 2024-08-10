@@ -14,8 +14,8 @@ export default function SocialMedia() {
 
             </div>
             <div className="col-md-6 mt-5">
-              <h1 className='fs-1 fw-bold ms-5 mt-5'>Social Media Marketing Services in India</h1>
-              <p className='ms-5 mt-4 fs-3'>The internet is an endlessly vast space, but for every business, there's a potential customer waiting to be reached through social media. we specialize in harnessing the power of social media marketing in India to connect you with your ideal.</p>
+              <h1 className='fs-1 fw-bold ms-5 mt-5'>Social Media Marketing Expertise in India</h1>
+              <p className='ms-5 mt-4 fs-3'>In the boundless realm of the internet, there’s a potential customer just waiting for your message. At [Your Company Name], we excel in leveraging social media marketing to bridge the gap between your business and your ideal audience. Let us harness the power of social media to connect you with the right people and drive your success.</p>
               <ColorButton className="fs-4 mt-5 mb-5 ms-5 rounded-pill">View our designs</ColorButton>
               <TransButton className="fs-4 mt-5 ms-5 rounded-pill">Get in touch</TransButton>
             </div>
@@ -111,8 +111,8 @@ export default function SocialMedia() {
 
             <div className="row">
               <div className="col-md-6 mt-5">
-                <h1 className='fs-1 mt-5 ms-5'>Elevate Your Social Media Marketing in India with Premium Photography.</h1>
-                <p className='fs-4 mt-4 ms-5'>In the vast realm of social media, authenticity and quality are paramount. By incorporating top-tier photography, we elevate your brand’s image, showcasing unique and stunning visuals that set you apart. we take pride in delivering exceptional imagery that enhances your business’s presence and appeal in the Indian market.</p>
+                <h1 className='fs-1 mt-5 ms-5'>Transform Your Social Media Marketing in India with Premium Photography</h1>
+                <p className='fs-4 mt-4 ms-5'>In the expansive world of social media, authenticity and quality are crucial. By integrating high-caliber photography, we elevate your brand’s image with striking visuals that truly stand out. Our commitment to exceptional imagery enhances your business’s presence and appeal, setting you apart in the Indian market.</p>
                 <p className='fs-5 ms-5 mt-4 fw-bold'>Tags: Social media Serviced India, Social media marketing Services India, Social media marketing company India, Social media company India, Social media advertising India</p>
                 <ColorButton className="fs-4 mt-5 mb-5 ms-5 rounded-pill">View Our Grade-A Imagery</ColorButton>
               </div>

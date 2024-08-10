@@ -8,42 +8,42 @@ export default function SixWays() {
         {
             imgPath: "/image/logo-design.png",
             title: "Logo Creation",
-            description: "Your logo is the signature of your brand—capable of setting you apart in the industry and leaving a lasting first impression. Our designers craft dynamic logos that ensure your brand is unforgettable.",
+            description: "Your logo is the hallmark of your brand, defining your identity and making a powerful first impression. Our designers specialize in creating dynamic, distinctive logos that ensure your brand stands out and remains unforgettable.",
             redirectRoute: "/design/logo",
             redirectLavel: "See Our Logo Design"
         },
         {
             imgPath: "/image/drone.png",
             title: "Drone Services",
-            description: "Your brand fuels our creativity. With our drone photography and videography, we showcase your brand from breathtaking perspectives. We capture stunning aerial footage that highlights every detail, presenting your business in its best light.",
+            description: "Your brand inspires our innovation. With our cutting-edge drone photography and videography, we elevate your brand with breathtaking aerial views. We capture stunning footage that showcases every detail, presenting your business from its most impressive angles.",
             redirectRoute: "/media/drone",
             redirectLavel: "See Our Drone Promotion"
         },
         {
             imgPath: "/image/photography.png",
             title: "Professional photography",
-            description: "Using cutting-edge technology, we present your business with high-definition, professional photography that captivates your audience.",
+            description: "Harnessing the latest technology, we deliver high-definition, professional photography that captures your business in stunning detail and captivates your audience.",
             redirectRoute: "/media/photo",
             redirectLavel: "See our photography portfolio"
         },
         {
             imgPath: "/image/seo.png",
-            title: "SEO",
-            description: "As a top Google partner in Noida, we possess unparalleled expertise in optimizing your website for search engines, ensuring full compliance and effective utilization across your site.",
+            title: "SEO Expertise",
+            description: "As a leading Google Partner in Noida, we bring unmatched expertise in optimizing your website for peak search engine performance. Our comprehensive approach ensures full compliance and effective utilization, maximizing your site’s visibility and impact.",
             redirectRoute: "#",
             redirectLavel: "See our SEO"
         },
         {
             imgPath: "/image/video.png",
             title: "Promotional Videos",
-            description: "Through compelling storyboards and mood boards, our expert team produces engaging videos that captivate your audience across all your selected platforms.",
+            description: "Our expert team crafts captivating promotional videos using compelling storyboards and mood boards. We create engaging content that resonates with your audience and enhances your brand’s presence across all chosen platforms.",
             redirectRoute: "/media/video",
             redirectLavel: "See our videos"
         },
         {
             imgPath: "/image/virtual-reality.png",
             title: "Virtual Concepts",
-            description: "Leverage our expertise in Google 360° imagery to position your business as a local leader, providing immersive and engaging virtual experiences.",
+            description: "Harness our expertise in Google 360° imagery to elevate your business as a local leader. We create immersive and engaging virtual experiences that captivate your audience and showcase your business in a compelling new light.",
             redirectRoute: "/media/virtual",
             redirectLavel: "See our virtual concepts"
         }

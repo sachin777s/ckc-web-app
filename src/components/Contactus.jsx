@@ -33,10 +33,10 @@ export default function Contactus() {
             <div className="container px-5 py-24 mx-auto flex gap-8 md:gap-12 items-center justify-center flex-col md:flex-row">
                 <div className="lg:w-3/5 md:w-2/5 md:pr-16 lg:pr-0 pr-0">
                     <h1 className='text-4xl md:text-6xl font-semibold'>
-                        Contactus To start growing your business today, contact us.
+                    Get in Touch
                     </h1>
                     <p className='mt-4 md:mt-6 text-xl opacity-80'>
-                        Let's get to know each other and talk about how we can help you.
+                    Ready to elevate your business? Reach out to us today. Let’s connect and explore how we can drive your growth and success together.
                     </p>
                 </div>
 

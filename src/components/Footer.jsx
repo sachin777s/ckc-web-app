@@ -35,8 +35,8 @@ export default function Footer() {
             <div className="col-md-2">
               <Link to={'/'}><h1 className='fs-4 fw-bold'>Marketing</h1></Link>
               <div className="mt-4 gap-5">
-                <Link to={'/'}><p className='fs-5'>fhskfh</p></Link>
-                <Link to={'/'}><p className='mt-2 fs-5'>fhskfh</p></Link>
+                <Link to={'/'}><p className='fs-5'></p>Consulting</Link>
+                <Link to={'/'}><p className='mt-2 fs-5'></p>Management</Link>
                 <Link to={'/'}><p className='mt-2 fs-5'>Pitch Decks</p></Link>
                 <Link to={'/'}><p className='mt-2 fs-5'>Public Relations</p></Link>
                 <Link to={'/'}><p className='mt-2 fs-5'>SEO</p></Link>
@@ -57,11 +57,11 @@ export default function Footer() {
             <div className="col-md-2">
               <Link to={'/'}><h1 className='fs-4 fw-bold'>Media</h1></Link>
               <div className="mt-4 gap-5">
-                <Link to={'/'}><p className='fs-5'>Drone</p></Link>
-                <Link to={'/'}><p className='mt-2 fs-5'>Photo</p></Link>
-                <Link to={'/'}><p className='mt-2 fs-5'>Video</p></Link>
-                <Link to={'/'}><p className='mt-2 fs-5'>Virtual Tours</p></Link>
-                <Link to={'/'}><p className='mt-2 fs-5'>3D</p></Link>
+                <Link to={'/media/drone'}><p className='fs-5'>Drone</p></Link>
+                <Link to={'/media/photo'}><p className='mt-2 fs-5'>Photo</p></Link>
+                <Link to={'/media/video'}><p className='mt-2 fs-5'>Video</p></Link>
+                <Link to={'/media/virtual'}><p className='mt-2 fs-5'>Virtual Tours</p></Link>
+                <Link to={'/media/3d'}><p className='mt-2 fs-5'>3D</p></Link>
               </div>
             </div>
             <div className="col-md-2">
