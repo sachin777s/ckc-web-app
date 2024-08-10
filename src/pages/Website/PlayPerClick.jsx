@@ -8,18 +8,17 @@ export default function PlayPerClick() {
                 <div className='w-full h-full overflow-hidden rounded-md'>
                     <img
                         className='w-full h-full transition-all duration-500 hover:scale-125'
-                        src="/image/car.webp"
+                        src="/image/close-up-young.jpg"
                         alt=".."
                     />
                 </div>
             </div>
             <div className="md:w-2/6 w-full">
                 <h1 className='text-4xl font-bold'>
-                    Pay-Per-Click (PPC).
+                Pay-Per-Click (PPC) Advertising
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Pay-per-click (PPC) advertising can significantly boost your visibility in search engine results. With years of experience managing successful PPC campaigns across platforms like Google Ads and Facebook Ads Manager, our experts excel at strategically allocating your budget to meet your business objectives effectively. Let us help you achieve your marketing goals with precision and expertise.
-                </p>
+                Boost your visibility and drive targeted traffic with our expert PPC services. Leveraging years of experience with platforms like Google Ads and Facebook Ads Manager, we strategically allocate your budget to maximize your business objectives. Partner with us to achieve your marketing goals with precision and expertise.                </p>
                 <ColorButton className="mt-4">Request a free audit</ColorButton>
             </div>
         </section>

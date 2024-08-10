@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className='navbar z-[100] fixed w-full h-[100px] bg-[var(--secondary-color)] flex items-center justify-center shadow-[0_0_13px_-3px_var(--main-color)]'>
       <nav className='px-2 md:px-4 max-w-[1810px] w-full h-full flex items-center justify-between'>
         <div>
-          <img width={150} src={Logo} alt="..." />
+         <img width={150} src={Logo} alt="..." />
         </div>
         <div className={`h-screen w-screen lg:h-auto lg:w-auto transition-all duration-500 ${!isNavbarOpen ? "-translate-y-full" : "-translate-y-0"} lg:-translate-y-0 fixed top-0 left-0 lg:static bg-[var(--secondary-color)] lg:bg-transparent flex justify-center flex-col lg:flex-row`}>
           <div className="flex justify-center items-center flex-col lg:flex-row">
@@ -201,7 +201,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"/media/drone"}
                   >
-                    Dron
+                   drone
                   </NavLink>
                 </li>
                 <li className="">

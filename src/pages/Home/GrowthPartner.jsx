@@ -14,8 +14,8 @@ export default function GrowthPartner() {
         </div>
       </div>
       <div className="md:w-2/6 w-full">
-        <h1 className='text-4xl font-bold'>Your Premier Partner for Business Growth in Noida</h1>
-        <p className='mt-4 text-xl opacity-80'>At London Marketing Company, our team collaborates closely with you to unlock your business's full potential and distinguish it in its industry. We’re firm believers that remarkable achievements are possible when the right expertise and vision come together.</p>
+        <h1 className='text-4xl font-bold'>Your Premier Partner for Unleashing Business Success in Noida</h1>
+        <p className='mt-4 text-xl opacity-80'>At India Marketing Company, we work hand-in-hand with you to propel your business to new heights and set it apart in its industry. We believe that extraordinary success is within reach when expertise and vision align seamlessly. Let’s make remarkable achievements together..</p>
         <ColorButton className="mt-4">Explore Our Marketing Specialities</ColorButton>
       </div>
     </section>

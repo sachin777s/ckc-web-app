@@ -6,7 +6,7 @@ export default function ContentWriting() {
         <section name="content" className='container-tailwind mt-20 pt-20 flex gap-12 items-center flex-col-reverse md:flex-row justify-between border-t-4 border-gray-200'>
             <div className="w-full md:w-1/2 lg:w-1/3">
                 <h1 className='text-4xl font-bold'>High-Caliber Content Writing</h1>
-                <p className='mt-4 text-xl opacity-80'>We harness the power of branding and design to craft distinct personalities for your business. Collaborating closely with you and your team, we customize every aspect to evoke a strong sense of identity and uniqueness.</p>
+                <p className='mt-4 text-xl opacity-80'>We leverage branding and design to create distinctive voices for your business. By working closely with you and your team, we tailor every detail to build a powerful, unique identity that truly stands out.</p>
                 <ColorButton className="mt-4">View Our Designing and Branding</ColorButton>
             </div>
             <div className="flex items-center justify-center">

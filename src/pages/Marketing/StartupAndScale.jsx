@@ -3,8 +3,8 @@ import React from 'react'
 export default function StartupAndScalel() {
   return (
     <div className="container">
-    <h1 className='fs-1 fw-bold ms-5'>Start-Up Acceleration and Business Scaling Solution.</h1>
-    <p className='fs-3 mx-5 mt-3 mb-5'>We’re dedicated to helping your business achieve its maximum potential at every stage of its growth. From launching new ventures to scaling your revenue from thousands to millions, we provide the expertise and resources needed to meet and exceed your targets.</p>
+    <h1 className='fs-1 fw-bold ms-5'>Start-Up Acceleration & Business Scaling Solutions.</h1>
+    <p className='fs-3 mx-5 mt-3 mb-5'>We’re committed to propelling your business to its highest potential at every growth stage. Whether you're launching a new venture or scaling revenue from thousands to millions, we offer the expertise and resources to help you achieve and surpass your goals. Let’s elevate your business to new heights together.</p>
     <div className="row">
       <div className="col-md-4">
         <h1 className='fs-3 ms-5 fw-bold'>What can we do to help you digitally?</h1>
