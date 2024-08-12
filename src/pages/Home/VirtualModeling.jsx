@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function VirtualModeling() {
     return (
@@ -20,7 +21,9 @@ export default function VirtualModeling() {
             <div className="w-full md:w-1/2">
                 <h1 className='text-4xl font-bold'>Stunning 3D Virtual Creations</h1>
                 <p className='mt-4 text-xl opacity-80'>Turn your ideas into breathtaking realities with our cutting-edge 3D design services. Our advanced 3D modeling and rendering bring your concepts to life, offering a detailed preview before you invest in physical production. Refine and perfect your designs with confidence, streamlining your development process while keeping costs in check.</p>
+                <Link className='block mt-4' to={"/media/virtual"}>
                 <ColorButton className="mt-4">View Our Vertial Modeling</ColorButton>
+                </Link>
             </div>
         </section>
     )

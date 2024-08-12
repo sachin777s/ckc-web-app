@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function Packaging() {
     return (
@@ -11,7 +12,9 @@ export default function Packaging() {
                 <p className='mt-4 text-xl opacity-80'>
                     Our packaging designers prioritize creativity, delivering innovative and stylish solutions for every project. We’re dedicated to ensuring your product packaging is eye-catching and memorable.
                 </p>
-                <ColorButton className="mt-4">View our packaging designs</ColorButton>
+                <Link className="mt-4 block" to="/design/packaging">
+                    <ColorButton>View our packaging designs</ColorButton>
+                </Link>
             </div>
             <div className="w-full md:w-1/2 self-start">
                 <div className='w-full h-full overflow-hidden rounded-md'>

@@ -2,6 +2,7 @@ import React from 'react';
 import ColorButton from "../../../components/asssets/ColorButton";
 import { FaAngleDown } from "react-icons/fa"
 import TransButton from '../../../components/asssets/TransButton';
+import { Link } from 'react-router-dom';
 
 export default function HeroSection() {
     return (
@@ -14,8 +15,12 @@ export default function HeroSection() {
                     Our corporate designs are crafted to make a powerful impact and leave a lasting impression, effectively and innovatively conveying your company's message.
                 </p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
-                    <ColorButton>Discover Our Virtual</ColorButton>
-                    <TransButton>Get in touch</TransButton>
+                    <Link to={"/media/virtual"}>
+                        <ColorButton>Discover Our Virtual</ColorButton>
+                    </Link>
+                    <Link to={"/get-in-touch"}>
+                        <TransButton>Get in touch</TransButton>
+                    </Link>
                 </div>
             </div>
             <img style={{

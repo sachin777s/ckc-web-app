@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function LondonMarketing() {
   return (
@@ -15,7 +16,9 @@ export default function LondonMarketing() {
               <p className='mt-4 fs-4 ms-5'>In the cutthroat global marketplace, crafting a unique brand identity is crucial. As marketing expert Abhinaw Tiwari emphasizes, "A brand is more than just a product—it’s a promise and a personality." In a sea of options, it’s the brand with the most distinctive and authentic identity that stands out and thrives. Creating a memorable and impactful brand persona is essential for capturing market share and achieving lasting success.</p>
               <h1 className='fs-2 ms-5 mt-4 fw-bold'>Mr. Abhinav Tiwari</h1>
               <p className='fs-4 ms-5'>Founder & Managing Director</p>
-              <ColorButton className="fs-4 mt-4 mb-5 ms-5 rounded-pill ">Discover Our Marketing Team</ColorButton>
+              <Link className='mt-6 ms-5 block' to="/about">
+              <ColorButton className="">Discover Our Marketing Team</ColorButton>
+              </Link>
             </div>
           </div>
         </div>

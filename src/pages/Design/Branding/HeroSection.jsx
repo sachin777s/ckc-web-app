@@ -2,6 +2,7 @@ import React from 'react';
 import ColorButton from "../../../components/asssets/ColorButton";
 import { FaAngleDown } from "react-icons/fa"
 import TransButton from '../../../components/asssets/TransButton';
+import { Link } from 'react-router-dom';
 
 export default function HeroSection() {
     return (
@@ -14,8 +15,12 @@ export default function HeroSection() {
                     Develop a distinctive, memorable brand that stands out and captivates in today’s fiercely competitive marketplace.
                 </p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
-                    <ColorButton>View Logo Design</ColorButton>
-                    <TransButton>Get in touch</TransButton>
+                    <Link to="/design/logo">
+                        <ColorButton>View Logo Design</ColorButton>
+                    </Link>
+                    <Link to="/get-in-touch">
+                        <TransButton>Get in touch</TransButton>
+                    </Link>
                 </div>
             </div>
             <img style={{

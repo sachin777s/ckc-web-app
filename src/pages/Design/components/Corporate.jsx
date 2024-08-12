@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function Corporate() {
     return (
@@ -20,7 +21,9 @@ export default function Corporate() {
                 <p className='mt-4 text-xl opacity-80'>
                     Time and again, we’ve exceeded client expectations by embracing simplicity, knowing that the most effective logos are often the simplest.
                 </p>
-                <ColorButton className="mt-4">View our corporate range</ColorButton>
+                <Link className="mt-4 block" to="/design/corporate">
+                    <ColorButton>View our corporate range</ColorButton>
+                </Link>
             </div>
         </section>
     )

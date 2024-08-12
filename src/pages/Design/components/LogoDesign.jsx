@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function LogoDesign() {
     return (
@@ -10,7 +11,9 @@ export default function LogoDesign() {
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
                     Graphic design elements, especially your logo, are crucial in showcasing professionalism and quality on your website. We specialize in creating simple yet powerful designs that help your business stand out from the competition.                </p>
-                <ColorButton className="mt-4">Explore our logo designs</ColorButton>
+                <Link className="mt-4 block" to="/design/logo">
+                    <ColorButton>Explore our logo designs</ColorButton>
+                </Link>
             </div>
             <div className="w-full md:w-1/2 self-start">
                 <div className='w-full h-full overflow-hidden rounded-md'>

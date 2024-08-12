@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function Promotion() {
   return (
@@ -17,9 +18,10 @@ export default function Promotion() {
         <h1 className='text-4xl font-bold'>Impactful and Purposeful Media Promotion</h1>
         <h3 className='mt-4 text-base font-bold'>Web Design Agency Noida</h3>
         <p className='mt-4 text-xl opacity-80'>Your online presence starts with your website. Invest in exceptional design and thorough full-stack development to truly represent your business.</p>
-        <ColorButton className="mt-4">Check Our Website Portfolio</ColorButton>
+        <Link className="mt-4 block" to={"/media"}>
+          <ColorButton>Check Our Media</ColorButton>
+        </Link>
       </div>
     </section>
   )
 }
- 

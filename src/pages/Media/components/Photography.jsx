@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function Photography() {
     return (
@@ -7,7 +8,9 @@ export default function Photography() {
             <div className="md:w-1/2 w-full">
                 <h1 className='text-4xl font-bold'>Top-Tier Publication Photography</h1>
                 <p className='mt-4 text-xl opacity-80'>At CKC Marketing Company, our expert photographers excel in capturing the essence and uniqueness of your business. With top-tier publication photography, we highlight your brand's true beauty and distinctive qualities, ensuring a stunning and authentic representation.</p>
-                <ColorButton className="mt-4">Explore our professional photography</ColorButton>
+                <Link className="mt-4 block" to={"/media/photo"}>
+                    <ColorButton>Explore our professional photography</ColorButton>
+                </Link>
             </div>
             <div className="w-full md:w-1/2 self-start">
                 <div className='w-full h-full overflow-hidden rounded-md'>

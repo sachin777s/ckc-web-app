@@ -17,7 +17,7 @@ export default function ContactDetails() {
                         Email Us Via:
                     </span>
                     <span className='mt-4 text-xl opacity-80'>
-                        info@londonmarketingcompany<br />.co.uk
+                        info@ckcgi.com
                     </span>
                 </div>
                 <div className='py-4 px-2 border w-full md:w-[32rem] flex flex-col items-center'>
@@ -30,7 +30,7 @@ export default function ContactDetails() {
                         Contact Us Via:
                     </span>
                     <span className='mt-4 text-xl opacity-80'>
-                        +91 XXXXX X5968
+                        +91 7088869333
                     </span>
                 </div>
             </div>

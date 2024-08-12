@@ -1,6 +1,7 @@
 import React from 'react'
 import ColorButton from "../../../components/asssets/ColorButton"
 import { IoIosArrowDown } from "react-icons/io"
+import { Link } from 'react-router-dom'
 
 
 export default function Drone() {
@@ -10,9 +11,11 @@ export default function Drone() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
-              <h1 className='fs-1 mt-5 ms-5 fw-bold'>Stunning Drone <br/> Promotions</h1>
+              <h1 className='fs-1 mt-5 ms-5 fw-bold'>Stunning Drone <br /> Promotions</h1>
               <p className='fs-4 ms-5 mt-4'>Give your customers a fresh perspective on their experience with your company through captivating aerial imagery and films. Our drone promotions offer a dynamic and engaging view that brings.</p>
-              <ColorButton className="fs-4 mt-5 mb-5 ms-5 rounded-pill ">View our video portfolio</ColorButton>
+              <Link to="/media/video">
+                <ColorButton className="mt-5 mb-5 ms-5">View our video portfolio</ColorButton>
+              </Link>
             </div>
             <div className="col-md-6">
             </div>
@@ -30,13 +33,15 @@ export default function Drone() {
           <div className="row">
             <div className="row">
               <div className="col-md-6 mt-5">
-              <iframe width="560" height="315" className='mt-5' src="https://www.youtube.com/embed/Pe1w7q7TkV8?si=MR8no_n0NQgzgaIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" className='mt-5' src="https://www.youtube.com/embed/Pe1w7q7TkV8?si=MR8no_n0NQgzgaIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <p><a href="https://vimeo.com/731809333"></a><a href="https://vimeo.com/user180559931"></a><a href="https://vimeo.com"></a></p>
               </div>
               <div className="col-md-6 mt-5">
                 <h1 className='mt-5 fs-1 fw-bold mx-5'>Experts in Drone Marketing for India</h1>
                 <p className='fs-4 ms-5 mt-4'>In today's digital landscape, showcasing your business through striking visuals is crucial for engaging your target audience. Elevate your brand's prestige and market value with our top-tier drone promotions, designed to capture and highlight your company's unique strengths.</p>
-                <ColorButton className="fs-4 mt-5 mb-5 ms-5 rounded-pill ">Explore our full photography portfolio</ColorButton>
+                <Link to="/media/photo">
+                  <ColorButton className="mt-5 mb-5 ms-5">Explore Our Full Photography Portfolio</ColorButton>
+                </Link>
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import LeftVideo from "../../assets/videos/FIVERIVERS_LAP.mp4";
 import RightVideo from "../../assets/videos/SOMERSET_LAP.mp4";
 import ColorButton from "../../components/asssets/ColorButton"
+import { Link } from 'react-scroll';
 
 export default function Booking() {
 
@@ -41,7 +42,9 @@ export default function Booking() {
                 <p className='text-center opacity-80 text-xl'>
                     Hover over the laptops above to see what our websites look like.
                 </p>
-                <ColorButton className="mt-4" >Enquire now</ColorButton>
+                <Link to='contactus' offset={-150} duration={500} className="mt-4 block">
+                    <ColorButton>Enquire now</ColorButton>
+                </Link>
             </div>
         </section>
     )

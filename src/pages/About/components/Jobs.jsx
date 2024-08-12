@@ -18,7 +18,7 @@ export default function Jobs() {
                     Dedicated, Driven, and Essential
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    We’re not just focused on London; our goal is to become the leading marketing agency across the South of England, providing comprehensive success solutions nationwide. Reach out today to explore our opportunities and see how we can help you achieve your goals
+                    We’re not just focused on India;. Our goal is to become the leading marketing agency across the South of England, providing comprehensive success solutions nationwide. Reach out today to explore our opportunities and see how we can help you achieve your goals
                 </p>
                 <ColorButton className="mt-4">Contact for job opportunities</ColorButton>
             </div>

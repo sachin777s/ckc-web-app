@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function VideoMarketing() {
     return (
@@ -20,7 +21,9 @@ export default function VideoMarketing() {
             <div className="w-full md:w-1/2">
                 <h1 className='text-4xl font-bold'>Hyper-Realistic 3D Product Modeling</h1>
                 <p className='mt-4 text-xl opacity-80'>Our team of 3D design experts specializes in crafting breathtaking, hyper-realistic visuals. We bring your innovative ideas and concepts to life with detailed modeling and rendering, transforming them into vivid, tangible realities.</p>
-                <ColorButton className="mt-4">Explore our 3D product modelling</ColorButton>
+                <Link className="mt-4 block" to={"/media/3d"}>
+                    <ColorButton>Explore our 3D product modelling</ColorButton>
+                </Link>
             </div>
         </section>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function Branding() {
     return (
@@ -13,9 +14,9 @@ export default function Branding() {
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
                     Your brand is more than just what you offer; it’s the essence of how customers perceive your business—your brand’s personality. Our branding and design experts meticulously craft and refine your brand’s image to resonate powerfully with your most profitable target audiences.                </p>
-                <ColorButton className="mt-4">
-                    Explore our professional branding
-                </ColorButton>
+                <Link className="mt-4 block" to="/design/branding">
+                    <ColorButton>Explore our professional branding</ColorButton>
+                </Link>
             </div>
         </section>
     )

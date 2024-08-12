@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function AnnualReport() {
     return (
@@ -20,7 +21,9 @@ export default function AnnualReport() {
                 <p className='mt-4 text-xl opacity-80'>
                     At London Marketing Company, we excel in crafting compelling and engaging corporate reports. Our reports and professional documentation are designed to reflect your core brand identity while effectively conveying essential information.
                 </p>
-                <ColorButton className="mt-4">Contact Us Today</ColorButton>
+                <Link to={"/get-in-touch"}>
+                    <ColorButton className="mt-4">Contact Us Today</ColorButton>
+                </Link>
             </div>
         </section>
     )
