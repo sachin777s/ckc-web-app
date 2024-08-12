@@ -2,6 +2,7 @@ import React from 'react'
 import ColorButton from '../../../components/asssets/ColorButton'
 import TransButton from '../../../components/asssets/TransButton'
 import { IoIosArrowDown } from "react-icons/io"
+import { Link } from 'react-router-dom'
 
 
 export default function ThreeD() {
@@ -13,8 +14,12 @@ export default function ThreeD() {
             <div className="col-md-6 mt-5">
               <h1 className='mt-5 fs-1 fw-bold'>3D modelling & <br /> rendering.</h1>
               <p className='fs-4 mt-4'>With our 3D Product renderings, you can take your ideas from a drawing board to reality. No matter what stage of development, we've got 3D solutions to utilise.</p>
-              <ColorButton className="fs-4 mt-5 mb-5 rounded-pill">View our marketing</ColorButton>
-              <TransButton className="fs-4 mt-5 ms-5 rounded-pill">Get in touch</TransButton>
+              <Link to="/marketing">
+                <ColorButton className="fs-4 mt-5 mb-5 rounded-pill">View our marketing</ColorButton>
+              </Link>
+              <Link to="/get-in-touch">
+                <TransButton className="fs-4 mt-5 ms-5 rounded-pill">Get in touch</TransButton>
+              </Link>
             </div>
           </div>
         </div>
@@ -26,7 +31,7 @@ export default function ThreeD() {
         </div>
       </section>
 
-      <section style={{backgroundColor: '#d4d4d4', marginTop: '60px'}}>
+      <section style={{ backgroundColor: '#d4d4d4', marginTop: '60px' }}>
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
@@ -85,7 +90,9 @@ export default function ThreeD() {
             <div className="col-md-6 mt-5">
               <h1 className='mt-5 fs-1 fw-bold'>3D modelling & rendering: perfect for all industries.</h1>
               <p className='fs-5 mt-4'>3D modelling and rendering have grown exponentially in the rise and prevalence of experiential marketing and digital promotions. Industries are particularly benefitting from 3D modelling and rendering include architecture, automotive, jewellery, fashion, homewares, design, antiques and interiors.</p>
-              <ColorButton className="fs-4 mt-5 mb-5 rounded-pill">Contact us today</ColorButton>
+              <Link to={"/get-in-touch"}>
+                <ColorButton className="fs-4 mt-5 mb-5 rounded-pill">Contact us today</ColorButton>
+              </Link>
             </div>
             <div className="col-md-6 mt-5">
               <div className='w-full overflow-hidden'>

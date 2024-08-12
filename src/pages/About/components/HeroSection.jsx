@@ -2,6 +2,8 @@ import React from 'react';
 import ColorButton from "../../../components/asssets/ColorButton";
 import { FaAngleDown } from "react-icons/fa"
 import TransButton from '../../../components/asssets/TransButton';
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 
 export default function HeroSection() {
     return (
@@ -11,11 +13,15 @@ export default function HeroSection() {
                     India's Premier Web Development Agency
                 </h1>
                 <p className='mt-4 text-xl opacity-80'>
-                    Partnering with London Marketing Company means gaining access to top industry experts who truly understand your business and objectives, delivering the highest quality service tailored to your needs.
+                    Partnering with Noida Marketing Company means gaining access to top industry experts who truly understand your business and objectives, delivering the highest quality service tailored to your needs.
                 </p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
-                    <ColorButton>Explore Our Marketing</ColorButton>
-                    <TransButton>Get in touch</TransButton>
+                    <Link to='/marketing'>
+                        <ColorButton>Explore Our Marketing</ColorButton>
+                    </Link>
+                    <ScrollLink to='contactus' offset={-150} duration={500}>
+                        <TransButton>Get in Touch</TransButton>
+                    </ScrollLink>
                 </div>
             </div>
             <img style={{

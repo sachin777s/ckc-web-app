@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function StartupAndScalel() {
   return (
-    <div className="container">
+    <div className="container mt-16" name="startupandscale">
     <h1 className='fs-1 fw-bold ms-5'>Start-Up Acceleration & Business Scaling Solutions.</h1>
     <p className='fs-3 mx-5 mt-3 mb-5'>We’re committed to propelling your business to its highest potential at every growth stage. Whether you're launching a new venture or scaling revenue from thousands to millions, we offer the expertise and resources to help you achieve and surpass your goals. Let’s elevate your business to new heights together.</p>
     <div className="row">

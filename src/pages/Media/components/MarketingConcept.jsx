@@ -1,6 +1,7 @@
 
 import React from 'react'
 import ColorButton from "../../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function MarketingConcept() {
     return (
@@ -8,7 +9,9 @@ export default function MarketingConcept() {
             <div className="w-full md:w-2/5">
                 <h1 className='text-4xl font-bold'>Innovative Video Marketing Strategies</h1>
                 <p className='mt-4 text-xl opacity-80'>Using state-of-the-art equipment and expert techniques, we create cinematic videos that powerfully narrate your brand’s unique story. Our innovative approach ensures your message resonates with your audience and stands out in a crowded marketplace.</p>
-                <ColorButton className="mt-4">Explore our video promotions</ColorButton>
+                <Link className="mt-4 block" to={"/media/video"}>
+                    <ColorButton>Explore our video promotions</ColorButton>
+                </Link>
             </div>
             <div className="w-full md:w-1/2 flex items-center justify-center">
                 <iframe

@@ -29,7 +29,7 @@ export default function Contactus() {
     };
 
     return (
-        <section className="mt-20 w-full text-gray-600 body-font bg-[#F9EBEB]">
+        <section name="contactus" className="mt-20 w-full text-gray-600 body-font bg-[#F9EBEB]">
             <div className="container px-5 py-24 mx-auto flex gap-8 md:gap-12 items-center justify-center flex-col md:flex-row">
                 <div className="lg:w-3/5 md:w-2/5 md:pr-16 lg:pr-0 pr-0">
                     <h1 className='text-4xl md:text-6xl font-semibold'>

@@ -2,16 +2,22 @@ import React from 'react';
 import ColorButton from "../../components/asssets/ColorButton";
 import { FaAngleDown } from "react-icons/fa"
 import TransButton from '../../components/asssets/TransButton';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 export default function HeroSection() {
     return (
-        <section className='bg-white relative h-screen overflow-hidden flex justify-between'>
+        <section className='bg-white relative min-h-screen overflow-hidden flex justify-between'>
             <div className="mt-8 sm:mt-0 w-[90%] xl:w-1/3 self-start md:self-center">
                 <h1 className='text-4xl md:text-6xl font-bold'>Exceptional High-Performance Websites – Your Premier Web Design Services in India.</h1>
                 <p className='mt-4 text-xl opacity-80'>Elevate your brand and captivate your audience with distinctive, top-tier web designs that stand out.</p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
-                    <ColorButton>Explore full-scale designs</ColorButton>
-                    <TransButton>Get in touch</TransButton>
+                    <Link to={"/design"}>
+                        <ColorButton>Explore full-scale designs</ColorButton>
+                    </Link>
+                    <ScrollLink to='contactus' offset={-150} duration={500}>
+                        <TransButton>Get in touch</TransButton>
+                    </ScrollLink>
                 </div>
             </div>
             <img style={{

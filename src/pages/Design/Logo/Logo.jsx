@@ -3,6 +3,7 @@ import ColorButton from '../../../components/asssets/ColorButton'
 import TransButton from '../../../components/asssets/TransButton'
 import { IoIosArrowDown } from "react-icons/io"
 import { FaAngleDown } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 export default function Logo() {
   return (
@@ -16,8 +17,12 @@ export default function Logo() {
             Creating distinctive, memorable logos that capture and convey your brand’s unique identity.
           </p>
           <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
-            <ColorButton>Explore logo design</ColorButton>
-            <TransButton>Get in touch</TransButton>
+            <Link to={"/design/trade"}>
+              <ColorButton>Explore Trade design</ColorButton>
+            </Link>
+            <Link to={"/get-in-touch"}>
+              <TransButton>Get in touch</TransButton>
+            </Link>
           </div>
         </div>
         <img style={{

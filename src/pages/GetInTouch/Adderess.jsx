@@ -18,15 +18,15 @@ export default function Adderess() {
                     <span>Visit Us</span>
                 </h1>
                 <span className='mt-4 text-xl opacity-80'>
-                    Berkeley Square <br />
-                    Berkeley Square House, <br />
+                    Main Road Hoshiyarpur <br />
+                    Shop No-2, <br />
                     2nd Floor, <br />
-                    Mayfair  <br />
-                    London <br />
-                    W1J 6BD
+                    opp. Metro Pillar No-235  <br />
+                    Sector 51, Noida <br />
+                    Uttar Pradesh 201301
                 </span>
-                <span className='mt-2 text-xl opacity-80'>+91 XXXXX X8769</span>
-                <span className='mt-2 text-xl opacity-80'>Email: info@londonmarketingcompany.co.uk</span>
+                <span className='mt-2 text-xl opacity-80'>+91 7088869333</span>
+                <span className='mt-2 text-xl opacity-80'>Email: info@ckcgi</span>
             </div>
         </div>
     )

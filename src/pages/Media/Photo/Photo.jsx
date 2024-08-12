@@ -2,6 +2,7 @@ import React from 'react'
 import ColorButton from '../../../components/asssets/ColorButton'
 import TransButton from '../../../components/asssets/TransButton'
 import { IoIosArrowDown } from "react-icons/io"
+import { Link } from 'react-router-dom'
 
 
 
@@ -14,8 +15,12 @@ export default function Photo() {
             <div className="col-md-6 mt-5">
               <h1 className='mt-5 fs-1 fw-bold ms-5 text-white'>Grade-A <br /> photography.</h1>
               <p className='fs-4 ms-5  mt-5 text-white'>Create a lasting impression of your businss with Grade-A commercial, lifestyle, product and experiential photography</p>
-              <ColorButton className="fs-4 mt-5 mb-5 rounded-pill ">Explore our video promotions</ColorButton>
+              <Link to={"/media/video"}>
+                <ColorButton className="fs-4 mt-5 mb-5 rounded-pill ">Explore our video promotions</ColorButton>
+              </Link>
+              <Link to={"/get-in-touch"}>
               <TransButton className="fs-4 mt-5 ms-5 rounded-pill">Contact us</TransButton>
+              </Link>
             </div>
             <div className="col-md-6">
               <img src="/image/" alt="" />

@@ -9,19 +9,19 @@ export default function ProfessionalMarketing() {
         },
         {
             imgPath: "/image/gplogo.webp",
-            text: "London Marketing Company has been a Google Partner since 2018 and specialises in 360° Virtual Tours for businesses across the UK and advanced SEO services. London Marketing Company has won multiple awards and was ranked in the top percentile of Google Partners in 2020 and 2021."
+            text: "Noida Marketing Company has been a Google Partner since 2018 and specialises in 360° Virtual Tours for businesses across the UK and advanced SEO services. Noida Marketing Company has won multiple awards and was ranked in the top percentile of Google Partners in 2020 and 2021."
         },
         {
             imgPath: "/image/russle.svg",
-            text: "All London Marketing Company business and marketing executives hold high-level qualifications from prestigious Russell Group universities. These 24 top-level institutions provide you with an excellent education in high-level business disciplines."
+            text: "All Noida Marketing Company business and marketing executives hold high-level qualifications from prestigious Russell Group universities. These 24 top-level institutions provide you with an excellent education in high-level business disciplines."
         },
         {
             imgPath: "/image/WordPress.webp",
-            text: "London Marketing Company specialises in WordPress website development services, offering ultra-fast, high-performing and sleek and stylish Worpress websites, bespoke and customised to the company and industries' specific needs and trends. We have produced 100's of websites using WordPress."
+            text: "Noida Marketing Company specialises in WordPress website development services, offering ultra-fast, high-performing and sleek and stylish Worpress websites, bespoke and customised to the company and industries' specific needs and trends. We have produced 100's of websites using WordPress."
         },
         {
             imgPath: "/image/wix_partner_logo.webp",
-            text: "London Marketing Company is an Official Wix Partner, being approached directly by Wix to help users globally. An Official Wix Partnershipais offered when a user creates more than X amount of websites of a certain standard. We have designed and developed on behalf of Wix users globally, helping users with an array of website ideas and issues."
+            text: "Noida Marketing Company is an Official Wix Partner, being approached directly by Wix to help users globally. An Official Wix Partnershipais offered when a user creates more than X amount of websites of a certain standard. We have designed and developed on behalf of Wix users globally, helping users with an array of website ideas and issues."
         },
         {
             imgPath: "/image/google-logo.svg",

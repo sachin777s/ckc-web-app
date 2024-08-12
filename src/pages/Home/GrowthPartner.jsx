@@ -1,5 +1,6 @@
 import React from 'react'
 import ColorButton from "../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function GrowthPartner() {
   return (
@@ -16,7 +17,9 @@ export default function GrowthPartner() {
       <div className="md:w-2/6 w-full">
         <h1 className='text-4xl font-bold'>Your Premier Partner for Unleashing Business Success in Noida</h1>
         <p className='mt-4 text-xl opacity-80'>At India Marketing Company, we work hand-in-hand with you to propel your business to new heights and set it apart in its industry. We believe that extraordinary success is within reach when expertise and vision align seamlessly. Let’s make remarkable achievements together..</p>
-        <ColorButton className="mt-4">Explore Our Marketing Specialities</ColorButton>
+        <Link className='block mt-4' to={"/marketing"}>
+          <ColorButton>Explore Our Marketing Specialities</ColorButton>
+        </Link>
       </div>
     </section>
   )

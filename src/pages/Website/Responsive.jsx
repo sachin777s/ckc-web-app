@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import ColorButton from "../../components/asssets/ColorButton";
 import videoIPad from "../../assets/videos/BROADCAST_iPAD.mp4";
 import videoIPhone from "../../assets/videos/BROADCAST_iPHONE.mp4"
+import { Link } from 'react-scroll';
 
 export default function Responsive() {
 
@@ -13,12 +14,14 @@ export default function Responsive() {
             <div className="w-full lg:w-2/5 pr-0 md:pr-48 flex flex-col">
                 <h1 className='text-4xl md:text-5xl font-semibold'>Seamlessly Responsive Websites for Every Device.</h1>
                 <p className='mt-8 text-xl opacity-80'>
-                In today’s multi-device world, a fully responsive website is essential for connecting with your audience across desktops, tablets, and mobiles. Our web experts create high-performance, elegant sites that ensure a flawless experience and make a memorable impact, regardless of the device used.
+                    In today’s multi-device world, a fully responsive website is essential for connecting with your audience across desktops, tablets, and mobiles. Our web experts create high-performance, elegant sites that ensure a flawless experience and make a memorable impact, regardless of the device used.
                 </p>
                 <p className='mt-6 font-bold'>
                     Keywords: India web design, web design agency in India, web design company India, website design and development India, India website design experts.
                 </p>
-                <ColorButton className="mt-6 self-center" >Enquire Now</ColorButton>
+                <Link className="block mt-6 self-center" to='contactus' offset={-150} duration={500}>
+                    <ColorButton>Enquire Now</ColorButton>
+                </Link>
                 <div className=''></div>
             </div>
             <div className="w-full lg:w-2/5">

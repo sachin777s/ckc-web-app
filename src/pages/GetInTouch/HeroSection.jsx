@@ -2,6 +2,8 @@ import React from 'react';
 import ColorButton from "../../components/asssets/ColorButton";
 import { FaAngleDown } from "react-icons/fa"
 import TransButton from '../../components/asssets/TransButton';
+import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from "react-scroll";
 
 export default function HeroSection() {
     return (
@@ -14,8 +16,12 @@ export default function HeroSection() {
                     We are experts in marketing and would love to help you achieve your goals.
                 </p>
                 <div className='mt-4 flex gap-2 md:gap-4 flex-col md:flex-row'>
-                    <ColorButton>View Our Team</ColorButton>
-                    <TransButton>Get in touch</TransButton>
+                    <Link to='/about'>
+                        <ColorButton>View Our Team</ColorButton>
+                    </Link>
+                    <ScrollLink to='contactus' offset={-150} duration={500}>
+                        <TransButton>Get in Touch</TransButton>
+                    </ScrollLink>
                 </div>
             </div>
             <img style={{

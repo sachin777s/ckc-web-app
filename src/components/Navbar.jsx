@@ -9,7 +9,6 @@ export default function Navbar() {
 
   const [isNavbarOpen, setisNavbarOpen] = useState(false);
 
-
   return (
     <header className='navbar z-[100] fixed w-full h-[100px] bg-[var(--secondary-color)] flex items-center justify-center shadow-[0_0_13px_-3px_var(--main-color)]'>
       <nav className='px-2 md:px-4 max-w-[1810px] w-full h-full flex items-center justify-between'>
@@ -95,7 +94,7 @@ export default function Navbar() {
                     className="px-4 mt-1 text-center text-[18px] hover:text-[var(--main-color)] block whitespace-no-wrap"
                     to={"#"}
                   >
-                    <Link to='seo' offset={-150} duration={500}>SEO</Link>
+                    <Link to='seo-marketing' offset={-150} duration={500}>SEO</Link>
                   </NavLink>
                 </li>
                 <li className="">

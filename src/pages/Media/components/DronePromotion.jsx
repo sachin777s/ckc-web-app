@@ -1,6 +1,7 @@
 import React from 'react'
 import DroneVideo from "../../../assets/videos/drone.mp4"
 import ColorButton from "../../../components/asssets/ColorButton"
+import { Link } from 'react-router-dom'
 
 export default function DronePromotion() {
     return (
@@ -17,7 +18,9 @@ export default function DronePromotion() {
                 <div className="w-full max-w-[60rem] flex items-center flex-col text-white">
                     <h1 className='text-5xl font-bold'>High-Impact Drone Promotions</h1>
                     <p className='mt-4 text-xl opacity-80'>Our skilled drone pilots and experienced cinematographers push the boundaries to deliver dynamic and captivating aerial content. We create stunning visuals that elevate your brand and make a powerful impression.</p>
-                    <ColorButton className="mt-4">View our drone work</ColorButton>
+                    <Link className="mt-4 block" to={"/media/drone"}>
+                        <ColorButton>View our drone work</ColorButton>
+                    </Link>
                 </div>
             </div>
         </section>
