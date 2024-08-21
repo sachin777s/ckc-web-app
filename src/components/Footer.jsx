@@ -19,9 +19,9 @@ export default function Footer() {
         </div>
         <div className="container">
           <div className="row ms-3 text-white">
-            <div className="col-md-2">
+            <div className="col-md-2 mt-4">
               <Link to={'/marketing'}><h1 className='fs-4 fw-bold'>Marketing</h1></Link>
-              <div className="mt-4 gap-5">
+              <div className="mt-2 opacity-90">
                 <ScrollLink to="consulting" offset={-150} duration={500}><p className='fs-5'></p>Consulting</ScrollLink>
                 <Link to={'/'}><p className='mt-2 fs-5'></p>Management</Link>
                 <Link to={'/'}><p className='mt-2 fs-5'>Pitch Decks</p></Link>
@@ -31,9 +31,9 @@ export default function Footer() {
                 <Link to={'/'}><p className='mt-2 fs-5'>Start-Up & Scale</p></Link>
               </div>
             </div>
-            <div className="col-md-2 ms-5">
+            <div className="col-md-2 mt-4">
               <Link to={'/website'}><h1 className='fs-4 fw-bold'>Websites</h1></Link>
-              <div className="mt-4 gap-5">
+              <div className="mt-2 opacity-80">
                 <ScrollLink to="content" offset={-150} duration={500}><p className='fs-5'>Content</p></ScrollLink>
                 <Link to={'/'}><p className='mt-2 fs-5'>Design</p></Link>
                 <Link to={'/'}><p className='mt-2 fs-5'>Development</p></Link>
@@ -41,9 +41,9 @@ export default function Footer() {
                 <Link to={'/'}><p className='mt-2 fs-5'>SEO</p></Link>
               </div>
             </div>
-            <div className="col-md-2 ms-5">
+            <div className="col-md-2 mt-4">
               <Link to={'/media'}><h1 className='fs-4 fw-bold'>Media</h1></Link>
-              <div className="mt-4 gap-5">
+              <div className="mt-2 opacity-80">
                 <Link to={'/media/drone'}><p className='fs-5'>Drone</p></Link>
                 <Link to={'/media/photo'}><p className='mt-2 fs-5'>Photo</p></Link>
                 <Link to={'/media/video'}><p className='mt-2 fs-5'>Video</p></Link>
@@ -51,9 +51,9 @@ export default function Footer() {
                 <Link to={'/media/3d'}><p className='mt-2 fs-5'>3D</p></Link>
               </div>
             </div>
-            <div className="col-md-2 ms-5">
+            <div className="col-md-2 mt-4">
               <Link to={'/design'}><h1 className='fs-4 fw-bold'>Design</h1></Link>
-              <div className="mt-4 gap-5">
+              <div className="mt-2 opacity-80">
                 <Link to={'/design/branding'}><p className='fs-5'>Branding</p></Link>
                 <Link to={'/design/corporate'}><p className='mt-2 fs-5'>Corporate</p></Link>
                 <Link to={'/design/logo'}><p className='mt-2 fs-5'>Logos</p></Link>
@@ -62,9 +62,9 @@ export default function Footer() {
                 <Link to={'/design/trade'}><p className='mt-2 fs-5'>Trade Shows</p></Link>
               </div>
             </div>
-            <div className="col-md-2 ms-5">
+            <div className="col-md-2 mt-4">
               <Link to={'/about'}><h1 className='fs-4 fw-bold'>About Us</h1></Link>
-              <div className="mt-4 gap-5">
+              <div className="mt-2 opacity-80">
                 <Link to={'/'}><p className='fs-5'>Team</p></Link>
                 <Link to={'/'}><p className='mt-2 fs-5'>Accolades</p></Link>
                 <Link to={'/'}><p className='mt-2 fs-5'>Google Leading Partner</p></Link>
@@ -80,9 +80,9 @@ export default function Footer() {
           <div className="row ms-3 text-white">
             <div className="col-md-6">
               <h1 className='fs-3 mt-4'>Get In Touch:</h1>
-              <Link target="blank" to={'https://api.whatsapp.com/message/RO4GMC4S2KC6K1?autoload=1&app_absent=0'}><p className='fs-5 mt-3 flex items-center gap-2'><ImWhatsapp />7088869333</p></Link>
-              <Link to={'/'}><p className='fs-5 mt-3 flex items-center gap-2'><TfiEmail />info@ckcgi.com</p></Link>
-              <Link to={'/'}><p className='fs-5 mt-3'><i className="bi bi-geo-alt fs-3"></i> Chandrakrishna Creative, Main Road Hoshiyarpur, Shop No-2, 2nd Floor, opp. Metro Pillar No-235, Sector 51, Noida, Uttar Pradesh 201301</p></Link>
+              <Link target="blank" to={'https://api.whatsapp.com/message/RO4GMC4S2KC6K1?autoload=1&app_absent=0'}><p className='fs-5 mt-3 flex items-center gap-2 opacity-80'><ImWhatsapp />7088869333</p></Link>
+              <Link to={'/'}><p className='fs-5 mt-3 flex items-center gap-2 opacity-80'><TfiEmail />info@ckcgi.com</p></Link>
+              <Link to={'/'}><p className='fs-5 mt-3 opacity-80'><i className="bi bi-geo-alt fs-3"></i> Chandrakrishna Creative, Main Road Hoshiyarpur, Shop No-2, 2nd Floor, opp. Metro Pillar No-235, Sector 51, Noida, Uttar Pradesh 201301</p></Link>
             </div>
             <div className="col-md-6">
               <h1 className='fs-3 mt-4'>Visit Us:</h1>
@@ -91,7 +91,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="container mt-5 text-white fs-5 pb-4">
-          <p className='text-center'>Terms and Conditions Copyright © 2024 All right reserved. Crafted with precision by Codfty</p>
+          <p className='text-center opacity-80'>Terms and Conditions Copyright © 2024 All right reserved. Crafted with precision by Codfty</p>
         </div>
       </section>
     </footer>

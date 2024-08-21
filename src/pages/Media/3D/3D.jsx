@@ -15,10 +15,10 @@ export default function ThreeD() {
               <h1 className='mt-5 fs-1 fw-bold'>3D modelling & <br /> rendering.</h1>
               <p className='fs-4 mt-4'>With our 3D Product renderings, you can take your ideas from a drawing board to reality. No matter what stage of development, we've got 3D solutions to utilise.</p>
               <Link to="/marketing">
-                <ColorButton className="fs-4 mt-5 mb-5 rounded-pill">View our marketing</ColorButton>
+                <ColorButton className=" mt-5 mb-5">View our marketing</ColorButton>
               </Link>
               <Link to="/get-in-touch">
-                <TransButton className="fs-4 mt-5 ms-5 rounded-pill">Get in touch</TransButton>
+                <TransButton className=" mt-5 ms-5 ">Get in touch</TransButton>
               </Link>
             </div>
           </div>
@@ -84,14 +84,13 @@ export default function ThreeD() {
                 <img className='w-full h-full transition-all duration-500 hover:scale-125' src="/image/background-with.jpg" alt=".." />
               </div>
             </div>
-          </div>
-
+          </div>  
           <div className="row">
             <div className="col-md-6 mt-5">
               <h1 className='mt-5 fs-1 fw-bold'>3D modelling & rendering: perfect for all industries.</h1>
               <p className='fs-5 mt-4'>3D modelling and rendering have grown exponentially in the rise and prevalence of experiential marketing and digital promotions. Industries are particularly benefitting from 3D modelling and rendering include architecture, automotive, jewellery, fashion, homewares, design, antiques and interiors.</p>
               <Link to={"/get-in-touch"}>
-                <ColorButton className="fs-4 mt-5 mb-5 rounded-pill">Contact us today</ColorButton>
+                <ColorButton className=" mt-5 mb-5">Contact us today</ColorButton>
               </Link>
             </div>
             <div className="col-md-6 mt-5">

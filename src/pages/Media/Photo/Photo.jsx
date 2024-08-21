@@ -12,24 +12,23 @@ export default function Photo() {
       <section style={{ backgroundImage: 'url(/image/race-care-.jpg)', backgroundSize: 'cover', paddingTop: '250px' }}>
         <div className="container">
           <div className="row">
-            <div className="col-md-6 mt-5">
-              <h1 className='mt-5 fs-1 fw-bold ms-5 text-white'>Grade-A <br /> photography.</h1>
-              <p className='fs-4 ms-5  mt-5 text-white'>Create a lasting impression of your businss with Grade-A commercial, lifestyle, product and experiential photography</p>
+            <div className="col-md-8 mt-5">
+              <h1 className='mt-5 fs-1 fw-bold text-white'>Grade-A <br /> photography.</h1>
+              <p className='mt-5 fs-4 text-white'>Create a lasting impression of your businss with Grade-A commercial, lifestyle, product and experiential photography</p>
               <Link to={"/media/video"}>
-                <ColorButton className="fs-4 mt-5 mb-5 rounded-pill ">Explore our video promotions</ColorButton>
+                <ColorButton className="mt-5 mb-5">Explore our video promotions</ColorButton>
               </Link>
               <Link to={"/get-in-touch"}>
-              <TransButton className="fs-4 mt-5 ms-5 rounded-pill">Contact us</TransButton>
+              <TransButton className="ms-4">Contact us</TransButton>
               </Link>
             </div>
-            <div className="col-md-6">
-              <img src="/image/" alt="" />
+            <div className="col-md-4">
             </div>
           </div>
         </div>
 
         <div onClick={() => window.scrollBy(0, 600)}
-          className='absolute -bottom-10 left-1/2 text-center flex flex-col'>
+          className=' left-1/2 text-center flex flex-col'>
           <span className='text-white'>Scroll Down</span>
           <span className='mt-4 self-center fs-3 text-white'><IoIosArrowDown /></span>
         </div>

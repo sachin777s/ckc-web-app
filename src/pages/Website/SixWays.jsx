@@ -78,7 +78,7 @@ export default function SixWays() {
                                 >
                                     {singleWay.redirectLavel}
                                     <BsArrowRight
-                                        className='transition-all duration-200 group-hover:translate-x-2'
+                                        className='transition-all duration-200 group-hover:translate-x-2 fs-4'
                                     />
                                 </NavLink>
                             </div>

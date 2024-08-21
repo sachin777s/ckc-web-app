@@ -11,7 +11,7 @@ export default function Responsive() {
 
     return (
         <section className="mt-20 flex items-center justify-center flex-col-reverse lg:flex-row gap-8">
-            <div className="w-full lg:w-2/5 pr-0 md:pr-48 flex flex-col">
+            <div className="w-full lg:w-1/2 pr-0 md:pr-24 flex flex-col">
                 <h1 className='text-4xl md:text-5xl font-semibold'>Seamlessly Responsive Websites for Every Device.</h1>
                 <p className='mt-8 text-xl opacity-80'>
                     In today’s multi-device world, a fully responsive website is essential for connecting with your audience across desktops, tablets, and mobiles. Our web experts create high-performance, elegant sites that ensure a flawless experience and make a memorable impact, regardless of the device used.

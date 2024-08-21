@@ -8,18 +8,18 @@ import { Link } from 'react-router-dom'
 export default function Virtual() {
   return (
     <>
-      <section style={{ backgroundImage: 'url(/image/tree-silhouette-against-big-moon.jpg)', backgroundSize: 'cover', paddingBottom: '150px' }}>
+      <section style={{ backgroundImage: 'url(/image/man-wearing-virtual-reality.jpg)', backgroundSize: 'cover', paddingBottom: '150px' }}>
         <div className="container">
           <div className="row">
             <div className="col-md-6 mt-5">
               <h1 className='mt-5 fs-1 fw-bold text-white'>Immersive 360° <br /> virtual tours.</h1>
               <p className='fs-5 mt-4 text-white'>Stunning HD 360° virtual tours to seamlessly immerse digital browsers into real-life experiences.</p>
               <Link to="/media/3d">
-                <ColorButton className="fs-4 mt-5 mb-5 rounded-pill ">Explore 3D concepts</ColorButton>
+                <ColorButton className="mt-5 mb-5">Explore 3D concepts</ColorButton>
               </Link>
               <br />
               <Link to={"/get-in-touch"}>
-                <TransButton className="fs-4 mb-5 rounded-pill ">Get in touch</TransButton>
+                <TransButton className=" mb-5">Get in touch</TransButton>
               </Link>
             </div>
             <div className="col-md-6">
@@ -37,7 +37,7 @@ export default function Virtual() {
           <h1 className='mt-5 fs-1 fw-bold'>Powerful Immersive Marketing</h1>
           <p className='fs-5 mt-4'>Ultra-engaging 360° digital content can help buyers see what they will experience when visiting the location of their choice before making an appointment or purchasing product(s).</p>
           <Link to={"/get-in-touch"}>
-            <ColorButton className="fs-4 mt-5 mb-5 rounded-pill ">Contact Us Today</ColorButton>
+            <ColorButton className="mt-5 mb-5">Contact Us Today</ColorButton>
           </Link>
           <div className="mt-5">
             <img src="/image/old-books-library-table.jpg" alt="" />
