@@ -8,15 +8,12 @@ import { Link } from 'react-router-dom'
 export default function SocialMedia() {
   return (
     <>
-      <section style={{ backgroundImage: 'url(/image/mobile-design.jpg)', backgroundSize: 'cover', paddingBottom: '200px' }}>
+      <section className='' style={{ backgroundImage: 'url(/image/social-media-marketing-concept-marketing-with-applications.jpg)', backgroundSize: 'cover', paddingBottom: '200px', paddingTop: '50px' }}>
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-
-            </div>
-            <div className="col-md-6 mt-5">
-              <h1 className='fs-1 fw-bold ms-5 mt-5'>Social Media Marketing Expertise in India</h1>
-              <p className='ms-5 mt-4 fs-3'>In the boundless realm of the internet, there’s a potential customer just waiting for your message. At [Your Company Name], we excel in leveraging social media marketing to bridge the gap between your business and your ideal audience. Let us harness the power of social media to connect you with the right people and drive your success.</p>
+            <h1 className='fs-1 fw-bold ms-5 mt-5'>Social Media Marketing Expertise in India</h1>
+              <p className='ms-5 mt-4 fs-3'>In the boundless realm of the internet, there’s a potential customer just waiting for your message. we excel in leveraging social media marketing to bridge the gap between your business and your ideal audience.</p>
               <div className='mt-5 ms-5 flex items-center gap-4 flex-col md:flex-row'>
                 <Link to="/design">
                   <ColorButton>View our designs</ColorButton>
@@ -26,9 +23,11 @@ export default function SocialMedia() {
                 </Link>
               </div>
             </div>
+            <div className="col-md-6 mt-5">
+              
+            </div>
           </div>
         </div>
-
         <div onClick={() => window.scrollBy(0, 600)}
           className='absolute left-1/2 text-center flex flex-col'>
           <span className='fs-5'>Scroll Down</span>

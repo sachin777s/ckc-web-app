@@ -16,11 +16,11 @@ export default function Video() {
               <h1 className='fs-1 fw-bold text-white'>Rememberable video <br /> marketing.</h1>
               <p className='fs-5 mt-4 text-white'>Immerse your customers in a video to see your business from a new perspective and experience your story from beginning to end.</p>
               <Link to="/media/photo">
-                <ColorButton className="fs-4 mt-5 mb-5 rounded-pill ">Explore our photography</ColorButton>
+                <ColorButton className="mt-5 mb-5">Explore our photography</ColorButton>
               </Link>
               <br />
               <Link to="/get-in-touch">
-                <TransButton className="fs-4 rounded-pill">Get in touch</TransButton>
+                <TransButton>Get in touch</TransButton>
               </Link>
             </div>
             <div className="col-md-6">
